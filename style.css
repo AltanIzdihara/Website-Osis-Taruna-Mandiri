@@ -399,14 +399,24 @@ em { font-style: italic; }
 }
 
 .hero__title-main {
-  display: block;
-  font-size: clamp(3.5rem, 9vw, 7.5rem);
+  display: inline-block;
+  max-width: 100%;
+  font-size: clamp(3.2rem, 8vw, 7.5rem);
   font-weight: 800;
   letter-spacing: -0.01em;
   background: linear-gradient(160deg, #FFFFFF 20%, var(--gold-light) 60%, var(--gold) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  padding-right: 0.16em;
+  padding-bottom: 0.05em;
+  box-sizing: border-box;
+}
+
+.hero__title-main em {
+  display: inline-block;
+  font-style: italic;
+  padding-right: 0.16em;
 }
 
 .hero__tagline {
@@ -2048,7 +2058,30 @@ body.modal-open {
   .nav__hamburger { display: flex; }
   .nav__mobile { display: flex; }
 
-  .hero__title-main { font-size: clamp(2.8rem, 13vw, 4.5rem); }
+  .hero {
+    padding-left: clamp(1rem, 4vw, 1.5rem);
+    padding-right: clamp(1rem, 4vw, 1.5rem);
+  }
+
+  .hero__eyebrow {
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+  }
+
+  .hero__title-sub {
+    font-size: clamp(0.75rem, 2.5vw, 0.88rem);
+    letter-spacing: 0.12em;
+  }
+
+  .hero__title-main {
+    font-size: clamp(2rem, 9vw, 3.2rem);
+    line-height: 1.12;
+  }
+
+  .hero__title-main em {
+    padding-right: 0.18em;
+  }
+
   .programs__grid { grid-template-columns: 1fr; }
 
   /* Structure: Clean, spacious vertical flow in Mobile (Tidak Terlalu Penuh) */
@@ -2146,6 +2179,24 @@ body.modal-open {
 }
 
 @media (max-width: 440px) {
+  .hero {
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
+
+  .hero__eyebrow {
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+  }
+
+  .hero__title-main {
+    font-size: clamp(1.75rem, 8.2vw, 2.25rem);
+  }
+
+  .hero__title-main em {
+    padding-right: 0.2em;
+  }
+
   .hero__actions { flex-direction: column; align-items: stretch; }
   .hero__actions .btn { justify-content: center; }
 
@@ -2155,5 +2206,20 @@ body.modal-open {
 
   .org-group__row {
     gap: 0.85rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero {
+    padding-left: 0.65rem;
+    padding-right: 0.65rem;
+  }
+
+  .hero__title-main {
+    font-size: clamp(1.5rem, 7.8vw, 1.85rem);
+  }
+
+  .hero__title-main em {
+    padding-right: 0.22em;
   }
 }
