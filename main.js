@@ -5,11 +5,15 @@
 
 'use strict';
 
+// ── Konfigurasi URL Arsip Google Drive Dokumentasi OSIS ────
+// Ganti URL di bawah ini dengan tautan folder Google Drive dokumentasi resmi OSIS Anda:
+const GOOGLE_DRIVE_DOCS_URL = 'https://drive.google.com/drive/folders/1OSIS-TarunaMandiri-Dokumentasi-Archive';
+
 // ── Utility ────────────────────────────────────────────────
 const qs  = (sel, ctx = document) => ctx.querySelector(sel);
 const qsa = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
 
-// ── Data Model: Profil BPH & Divisi OSIS Taruna Mandiri ────
+// ── Data Model: Profil Seluruh Pengurus OSIS Taruna Mandiri ─
 const OSIS_MEMBERS = {
   "ketua": {
     name: "Khairatunne Hisan",
@@ -119,99 +123,553 @@ const OSIS_MEMBERS = {
       "Alokasi Dana Taktis & Tanggap Siswa"
     ]
   },
-  "divisi-pdd": {
-    name: "Divisi PDD",
-    role: "Publikasi, Dekorasi & Dokumentasi",
-    badge: "Divisi PDD",
-    division: "Divisi Kreatif & Multimedia",
+  // ── DIVISI 1: PUBLIKASI, DEKORASI & DOKUMENTASI (PDD) ────
+  "pdd-altan": {
+    name: "Altan",
+    role: "Koordinasi PDD",
+    badge: "Koordinator PDD",
+    division: "Divisi Publikasi, Dekorasi & Dokumentasi",
     image: "assets/LogoTM.jpeg",
-    vision: "Menjadi corong visual dan narasi utama sekolah melalui publikasi kreatif, artistik, dan berstandar multimedia modern.",
+    vision: "Menghadirkan citra visual OSIS yang berkelas, artistik, dan profesional sebagai etalase prestasi dan karya siswa Taruna Mandiri.",
     missions: [
-      "Mendokumentasikan setiap momen prestisius kegiatan sekolah dalam kualitas visual terbaik.",
-      "Mendesain identitas visual, dekorasi panggung, dan media informasi yang estetis dan berkarakter.",
-      "Mengelola kanal media sosial OSIS secara profesional, edukatif, dan interaktif bagi seluruh siswa."
+      "Memimpin perencanaan konsep multimedia, publikasi digital, dan tata dekorasi di setiap kegiatan akbar sekolah.",
+      "Menyelaraskan alur kerja tim dokumentasi, editor visual, dan perancang panggung agar tepat waktu dan berstandar tinggi.",
+      "Menjaga konsistensi identitas visual OSIS di seluruh media informasi fisik maupun daring."
     ],
     programs: [
-      "Aftermovie & Liputan Eksklusif Acara Sekolah",
-      "Katalog Digital Dokumentasi Tahunan Taruna",
-      "Dekorasi Artistik & Tata Panggung Event Akbar",
-      "Desain Visual Promosi & Branding Digital"
+      "Grand Aftermovie Acara Tahunan",
+      "Master Visual Identity & Media Kit OSIS",
+      "Manajemen Tata Panggung & Lighting Acara"
     ]
   },
-  "divisi-pelita": {
-    name: "Divisi Pelita",
-    role: "Pendidikan & Literasi",
-    badge: "Divisi Pelita",
-    division: "Divisi Akademik & Keilmuan",
+  "pdd-khadziya": {
+    name: "Khadziya",
+    role: "Anggota PDD",
+    badge: "Anggota PDD",
+    division: "Divisi Publikasi, Dekorasi & Dokumentasi",
     image: "assets/LogoTM.jpeg",
-    vision: "Membangkitkan ekosistem akademik yang dinamis, berdaya nalar kritis, dan unggul dalam budaya literasi sekolah.",
+    vision: "Menciptakan narasi visual yang menarik, informatif, dan estetik untuk menjangkau seluruh siswa secara kreatif.",
     missions: [
-      "Menyelenggarakan kegiatan kompetisi akademik dan pengayaan wawasan ilmiah bagi seluruh siswa.",
-      "Mendorong gerakan gemar membaca, berdiskusi ilmiah, dan menulis karya kreatif siswa.",
-      "Memfasilitasi kelompok belajar sebaya untuk persiapan olimpiade sains dan ujian sekolah."
+      "Merancang materi konten feeds dan story media sosial yang interaktif dan komunikatif.",
+      "Menyusun tata letak poster informasi, banner promosi, dan jadwal agenda sekolah.",
+      "Membantu kurasi foto dan video terbaik untuk publikasi berkala."
     ],
     programs: [
-      "Taruna Academic Festival & Science Olympiad",
-      "Sudut Literasi & Bedah Buku Bulanan",
-      "Program Peer Tutoring (Bimbingan Belajar Sebaya)",
-      "Workshop Karya Tulis Ilmiah & Jurnalistik Siswa"
+      "Kampanye Visual Media Sosial Mingguan",
+      "Desain Poster Interaktif Kegiatan",
+      "Instagram Story Highlights & Recap"
     ]
   },
-  "divisi-seniora": {
-    name: "Divisi Seniora",
-    role: "Seni & Olahraga",
-    badge: "Divisi Seniora",
-    division: "Divisi Bakat & Minat",
+  "pdd-janpiter": {
+    name: "Janpiter",
+    role: "Anggota PDD",
+    badge: "Anggota PDD",
+    division: "Divisi Publikasi, Dekorasi & Dokumentasi",
     image: "assets/LogoTM.jpeg",
-    vision: "Mengembangkan potensi bakat non-akademik siswa yang sportif, ekspresif, dan berprestasi di kancah seni dan olahraga.",
+    vision: "Mengabadikan setiap momentum berharga sekolah dengan kualitas sinematik dan komposisi visual yang menginspirasi.",
     missions: [
-      "Menyelenggarakan turnamen olahraga antarkelas yang kompetitif dan menjunjung tinggi nilai sportivitas.",
-      "Memfasilitasi panggung apresiasi seni, musik, teater, dan tari bagi seluruh siswa bertalenta.",
-      "Menumbuhkan jiwa kebersamaan dan kesehatan jasmani warga sekolah melalui aktivitas fisik rutin."
+      "Bertindak sebagai videografer utama pada liputan langsung kegiatan siswa dan upacara bendera.",
+      "Melakukan proses editing, color grading, dan audio mixing video recap kegiatan.",
+      "Mengelola penyimpanan arsip video mentah dan aset rekaman sekolah."
     ],
     programs: [
-      "Taruna Cup: Turnamen Olahraga Antarkelas",
-      "Pentas Seni & Kreasi Budaya Akhir Tahun",
-      "Panggung Apresiasi Musik Akustik Istirahat",
-      "Senam Sehat & Olahraga Ceria Bersama"
+      "Video Dokumentasi & Teaser Kegiatan",
+      "Short Reels Sinematik Acara Sekolah",
+      "Arsip Cloud Footage Acara"
     ]
   },
-  "divisi-agama": {
-    name: "Divisi Agama",
-    role: "Kerohanian & Budi Pekerti",
-    badge: "Divisi Agama",
-    division: "Divisi Karakter & Budi Pekerti",
+  "pdd-kembang": {
+    name: "Kembang",
+    role: "Anggota PDD",
+    badge: "Anggota PDD",
+    division: "Divisi Publikasi, Dekorasi & Dokumentasi",
     image: "assets/LogoTM.jpeg",
-    vision: "Membangun karakter siswa yang religius, berakhlak mulia, toleran, dan memiliki kepekaan sosial kemanusiaan tinggi.",
+    vision: "Mewujudkan tata ruang dekorasi dan instalasi panggung yang tematik, memukau, dan sarat nilai seni.",
     missions: [
-      "Mengkoordinasikan kegiatan peringatan hari besar keagamaan dengan penuh kekhidmatan.",
-      "Menumbuhkan semangat toleransi, persaudaraan antarsesama, dan kepedulian sosial.",
-      "Memperkuat pembinaan etika moral dan pergaulan positif di lingkungan sekolah."
+      "Merancang sketsa dan konsep dekorasi panggung utama untuk peringatan hari nasional dan event siswa.",
+      "Mengkoordinir pengadaan dan perakitan ornamen artistik ramah lingkungan.",
+      "Memastikan keindahan tata ruang photobooth dan sudut estetik di arena kegiatan."
     ],
     programs: [
-      "Peringatan Hari Besar Keagamaan Sekolah",
-      "Bakti Sosial & Gerakan Taruna Peduli Dhuafa",
-      "Kajian Rutin Pembinaan Etika & Moral Siswa",
-      "Gerakan Budaya Santun & 5S (Senyum, Sapa, Salam, Sopan, Santun)"
+      "Dekorasi Tematik Acara Sekolah",
+      "Instalasi Photobooth Interaktif",
+      "Pojok Karya Seni & Galeri Mini"
     ]
   },
-  "divisi-humas": {
-    name: "Divisi Humas",
-    role: "Hubungan Masyarakat & Aspirasi",
-    badge: "Divisi Humas",
-    division: "Divisi Relasi & Komunikasi Publik",
+  "pdd-atika": {
+    name: "Atika",
+    role: "Anggota PDD",
+    badge: "Anggota PDD",
+    division: "Divisi Publikasi, Dekorasi & Dokumentasi",
     image: "assets/LogoTM.jpeg",
-    vision: "Menjadi jembatan komunikasi yang kredibel, inklusif, dan responsif antarsiswa, guru, alumni, dan masyarakat luar.",
+    vision: "Menyampaikan informasi kegiatan OSIS melalui tipografi, ilustrasi, dan desain grafis yang mudah dipahami dan berkarakter.",
     missions: [
-      "Mengelola kanal aspirasi siswa dan menjamin setiap suara mendapatkan tindak lanjut nyata.",
-      "Membangun relasi kemitraan strategis dengan organisasi sekolah lain dan institusi luar.",
-      "Menyosialisasikan kebijakan serta agenda OSIS secara terbuka, hangat, dan persuasif."
+      "Mengembangkan aset ilustrasi dan grafis untuk media cetak maupun digital sekolah.",
+      "Membuat kartu ucapan hari besar, sertifikat kegiatan, dan booklet panduan acara.",
+      "Mendukung tim dekorasi dalam pemilihan palet warna dan estetika desain grafis."
     ],
     programs: [
-      "Kotak Suara & Forum Dialog Aspirasi Siswa Terbuka",
-      "Studi Banding & Kunjungan Kolaborasi Antarsekolah",
-      "Buletin Warta Humas & Informasi Terkini",
-      "Kemitraan Sponsorship Acara Sekolah"
+      "Desain Sertifikat & Booklet Acara",
+      "Ilustrasi Karakter Edukatif Taruna",
+      "Infografis Rangkuman Kegiatan Siswa"
+    ]
+  },
+  "pdd-said": {
+    name: "Said",
+    role: "Anggota PDD",
+    badge: "Anggota PDD",
+    division: "Divisi Publikasi, Dekorasi & Dokumentasi",
+    image: "assets/LogoTM.jpeg",
+    vision: "Menjamin ketersediaan dokumentasi fotografi berkualitas tinggi dengan ketepatan bidikan pada setiap detik berharga.",
+    missions: [
+      "Mengabadikan ekspresi, perjuangan, dan kemenangan siswa dalam ajang kompetisi maupun kegiatan rutin.",
+      "Mengoperasikan perangkat kamera, lensa, dan tata cahaya foto indoor maupun outdoor.",
+      "Melakukan proses seleksi dan editing foto untuk katalog dokumentasi sekolah."
+    ],
+    programs: [
+      "Fotografi Dokumentasi Eksklusif",
+      "Kurasi Foto Momen Terbaik Mingguan",
+      "Koleksi Foto Portofolio Angkatan"
+    ]
+  },
+  "pdd-malaeka": {
+    name: "Malaeka",
+    role: "Anggota PDD",
+    badge: "Anggota PDD",
+    division: "Divisi Publikasi, Dekorasi & Dokumentasi",
+    image: "assets/LogoTM.jpeg",
+    vision: "Menyusun arsip digital dan katalog kenangan sekolah yang rapi, tertata, dan mudah diakses oleh seluruh siswa dan alumni.",
+    missions: [
+      "Mengelola struktur folder arsip Google Drive dan metadata foto/video dokumentasi.",
+      "Membantu penyusunan buku kenangan digital (digital yearbook) dan majalah dinding visual.",
+      "Mempersiapkan rilis dokumentasi cepat pasca-acara selesai."
+    ],
+    programs: [
+      "Digital Yearbook & Buku Kenangan",
+      "Sistem Manajemen Arsip Foto Cloud",
+      "Rilis Kilat Dokumentasi Pasca-Event"
+    ]
+  },
+
+  // ── DIVISI 2: PENDIDIKAN & LINGKUNGAN HIDUP (PELITA) ───────
+  "pelita-nayla": {
+    name: "Nayla",
+    role: "Koordinasi Pelita",
+    badge: "Koordinator Pelita",
+    division: "Divisi Pendidikan & Lingkungan Hidup",
+    image: "assets/LogoTM.jpeg",
+    vision: "Membangun atmosfer sekolah yang haus ilmu, berdaya nalar kritis, dan peduli terhadap kelestarian lingkungan hidup.",
+    missions: [
+      "Memimpin perumusan agenda olimpiade akademik, gerakan literasi, dan aksi cinta lingkungan.",
+      "Menjalin sinergi dengan guru mata pelajaran dalam mendukung delegasi kompetisi sains siswa.",
+      "Mengevaluasi keberlanjutan program peduli lingkungan dan kebersihan sekolah."
+    ],
+    programs: [
+      "Taruna Academic Festival & Olympiad",
+      "Gerakan Taruna Green School & Zero Plastic",
+      "Forum Diskusi Ilmiah Siswa"
+    ]
+  },
+  "pelita-galih": {
+    name: "Galih",
+    role: "Anggota Pelita",
+    badge: "Anggota Pelita",
+    division: "Divisi Pendidikan & Lingkungan Hidup",
+    image: "assets/LogoTM.jpeg",
+    vision: "Menjadikan sains dan teknologi sebagai ruang eksplorasi yang menyenangkan dan memicu inovasi nyata siswa.",
+    missions: [
+      "Mengorganisasi kompetisi sains antarkelas dan pameran proyek eksperimen siswa.",
+      "Mendampingi kelompok belajar persiapan olimpiade akademik (OSN).",
+      "Menyajikan fakta sains dan edukasi teknologi mingguan di majalah dinding."
+    ],
+    programs: [
+      "Science Fair & Pameran Inovasi Siswa",
+      "Klub Belajar Persiapan Olimpiade",
+      "Kuis Cerdas Cermat Sains Antarkelas"
+    ]
+  },
+  "pelita-nadhira": {
+    name: "Nadhira",
+    role: "Anggota Pelita",
+    badge: "Anggota Pelita",
+    division: "Divisi Pendidikan & Lingkungan Hidup",
+    image: "assets/LogoTM.jpeg",
+    vision: "Menghidupkan budaya membaca dan menulis sebagai fondasi kemajuan cara berpikir generasi muda.",
+    missions: [
+      "Mengelola sudut baca kelas dan perpustakaan mini OSIS yang nyaman dan variatif.",
+      "Menginisiasi lomba resensi buku, menulis cerpen, dan cipta puisi antarsiswa.",
+      "Mengadakan sesi bedah buku inspiratif bersama guru tamu dan penulis muda."
+    ],
+    programs: [
+      "Pojok Literasi & Taruna Book Club",
+      "Pekan Cipta Puisi & Cerpen Taruna",
+      "Sesi Bedah Buku Inspiratif Berkala"
+    ]
+  },
+  "pelita-zahra": {
+    name: "Zahra",
+    role: "Anggota Pelita",
+    badge: "Anggota Pelita",
+    division: "Divisi Pendidikan & Lingkungan Hidup",
+    image: "assets/LogoTM.jpeg",
+    vision: "Mewujudkan lingkungan sekolah yang asri, hijau, bersih, dan menanamkan kesadaran ekologis sejak dini.",
+    missions: [
+      "Mengawal pelaksanaan program pemilahan sampah organik dan anorganik di setiap kelas.",
+      "Mengorganisasi kegiatan penanaman pohon dan perawatan taman sekolah bersama perwakilan kelas.",
+      "Mengedukasi siswa mengenai bahaya pemanasan global dan efisiensi energi."
+    ],
+    programs: [
+      "Bank Sampah Mandiri Sekolah",
+      "Aksi Tanam Pohon & Apotek Hidup",
+      "Kampanye Hemat Energi & Air Bersih"
+    ]
+  },
+  "pelita-shafa": {
+    name: "Shafa",
+    role: "Anggota Pelita",
+    badge: "Anggota Pelita",
+    division: "Divisi Pendidikan & Lingkungan Hidup",
+    image: "assets/LogoTM.jpeg",
+    vision: "Mempererat solidaritas belajar siswa melalui sistem pendampingan sebaya yang inklusif dan solutif.",
+    missions: [
+      "Mengkoordinir jadwal bimbingan belajar sebaya (peer tutoring) menjelang asesmen dan ujian sekolah.",
+      "Menyusun bank latihan soal dan rangkuman materi pelajaran yang dibagikan secara digital.",
+      "Membantu siswa yang mengalami kendala belajar dengan metode diskusi santai."
+    ],
+    programs: [
+      "Peer Tutoring: Belajar Bareng Taruna",
+      "Distribusi Bank Soal Digital Asesmen",
+      "Klinik Belajar Interaktif Sebaya"
+    ]
+  },
+
+  // ── DIVISI 3: SENI & OLAHRAGA (SENIORA) ────────────────────
+  "seniora-imam": {
+    name: "Imam",
+    role: "Koordinasi Seniora",
+    badge: "Koordinator Seniora",
+    division: "Divisi Seni & Olahraga",
+    image: "assets/LogoTM.jpeg",
+    vision: "Menyalurkan energi positif, sportivitas, dan kreativitas siswa Taruna Mandiri melalui panggung seni dan arena olahraga yang bergengsi.",
+    missions: [
+      "Memimpin perancangan dan pelaksanaan kompetisi olahraga akbar tahunan sekolah.",
+      "Mengkoordinasi seluruh subseksi cabang olahraga dan pementasan seni budaya.",
+      "Menjaga netralitas, keamanan, dan sportivitas tinggi dalam setiap turnamen."
+    ],
+    programs: [
+      "Taruna Cup: Liga Olahraga Tahunan",
+      "Pentas Seni & Kreasi Budaya Siswa",
+      "Pembinaan Kontingen Olahraga Sekolah"
+    ]
+  },
+  "seniora-nethanya": {
+    name: "Nethanya",
+    role: "Anggota Seniora",
+    badge: "Anggota Seniora",
+    division: "Divisi Seni & Olahraga",
+    image: "assets/LogoTM.jpeg",
+    vision: "Memberikan ruang panggung bagi bakat musik, vokal, dan pertunjukan siswa agar berkembang penuh percaya diri.",
+    missions: [
+      "Mengelola pertunjukan live acoustic pada jam istirahat dan festival sekolah.",
+      "Mengkurasi dan melatih band serta paduan suara perwakilan sekolah.",
+      "Menyusun tata kelola perlengkapan musik dan sound system kegiatan."
+    ],
+    programs: [
+      "Panggung Akustik Istirahat Kreatif",
+      "Festival Band & Vokal Solo Siswa",
+      "Kompilasi Musik Taruna Berkarya"
+    ]
+  },
+  "seniora-alvin": {
+    name: "Alvin",
+    role: "Anggota Seniora",
+    badge: "Anggota Seniora",
+    division: "Divisi Seni & Olahraga",
+    image: "assets/LogoTM.jpeg",
+    vision: "Membangun semangat juang, daya tahan fisik, dan ketangkasan siswa melalui kejuaraan futsal dan sepak bola.",
+    missions: [
+      "Mengatur bagan pertandingan, perwasitan, dan regulasi kompetisi futsal sekolah.",
+      "Menyelenggarakan latihan bersama antarkelas untuk mempererat persaudaraan.",
+      "Memastikan kesiapan lapangan dan medis pertolongan pertama saat tanding."
+    ],
+    programs: [
+      "Turnamen Futsal Antarkelas Taruna",
+      "Laga Persahabatan Antarsekolah",
+      "Pelatihan Wasit & Fairplay Siswa"
+    ]
+  },
+  "seniora-raditya": {
+    name: "Raditya",
+    role: "Anggota Seniora",
+    badge: "Anggota Seniora",
+    division: "Divisi Seni & Olahraga",
+    image: "assets/LogoTM.jpeg",
+    vision: "Mengembangkan antusiasme olahraga bola basket dan voli sebagai arena pembuktian sportivitas dan kerjasama tim tangguh.",
+    missions: [
+      "Menyelenggarakan kompetisi basket 3on3 dan turnamen voli putra-putri.",
+      "Mengkoordinasikan tim logistik perlengkapan bola, ring, dan net lapangan.",
+      "Mendorong partisipasi aktif siswa dari seluruh jenjang kelas."
+    ],
+    programs: [
+      "Taruna 3on3 Basketball Challenge",
+      "Turnamen Voli Antarangkatan",
+      "Klinik Kebugaran Jasmani Siswa"
+    ]
+  },
+  "seniora-novzhafran": {
+    name: "Novzhafran",
+    role: "Anggota Seniora",
+    badge: "Anggota Seniora",
+    division: "Divisi Seni & Olahraga",
+    image: "assets/LogoTM.jpeg",
+    vision: "Mengembangkan apresiasi terhadap seni rupa, mural, fotografi artistik, dan kriya tangan siswa.",
+    missions: [
+      "Mengorganisir pameran galeri lukisan, sketsa, dan kerajinan tangan siswa.",
+      "Memfasilitasi workshop menggambar dan pembuatan mural dinding sekolah.",
+      "Menyediakan ruang ekspresi visual yang positif di sudut sekolah."
+    ],
+    programs: [
+      "Mural Art Project: Dinding Inspirasi",
+      "Pameran Seni Rupa & Desain Siswa",
+      "Lomba Desain Poster Kreatif"
+    ]
+  },
+  "seniora-asha": {
+    name: "Asha",
+    role: "Anggota Seniora",
+    badge: "Anggota Seniora",
+    division: "Divisi Seni & Olahraga",
+    image: "assets/LogoTM.jpeg",
+    vision: "Melestarikan kekayaan seni tari tradisional dan modern sebagai identitas keanggunan budaya generasi bangsa.",
+    missions: [
+      "Mempersiapkan koreografi tari persembahan untuk penyambutan tamu kehormatan.",
+      "Menyelenggarakan workshop tari daerah dan modern dance untuk siswa.",
+      "Mengkoordinir kostum dan tata rias pertunjukan panggung seni."
+    ],
+    programs: [
+      "Tari Tradisional & Modern Showcase",
+      "Workshop Tari Kreasi Nusantara",
+      "Pentas Kolaborasi Tari dan Drama"
+    ]
+  },
+  "seniora-talitha": {
+    name: "Talitha",
+    role: "Anggota Seniora",
+    badge: "Anggota Seniora",
+    division: "Divisi Seni & Olahraga",
+    image: "assets/LogoTM.jpeg",
+    vision: "Menggalakkan gaya hidup aktif, sehat, dan bugar melalui olahraga rekreasi yang ceria bagi seluruh warga sekolah.",
+    missions: [
+      "Memimpin pelaksanaan senam kesegaran jasmani rutin bersama dewan guru dan siswa.",
+      "Menyusun agenda turnamen bulutangkis dan tenis meja antarkelas.",
+      "Mengkampanyekan pentingnya asupan gizi seimbang dan hidrasi bagi atlet siswa."
+    ],
+    programs: [
+      "Jumat Sehat: Senam Bersama Taruna",
+      "Kejuaraan Bulutangkis Antarkelas",
+      "Kampanye Hidup Sehat & Bugar"
+    ]
+  },
+
+  // ── DIVISI 4: KEROHANIAN & BUDI PEKERTI (AGAMA) ───────────
+  "agama-rafa": {
+    name: "Rafa",
+    role: "Koordinasi Agama",
+    badge: "Koordinator Agama",
+    division: "Divisi Kerohanian & Budi Pekerti",
+    image: "assets/LogoTM.jpeg",
+    vision: "Menanamkan nilai-nilai religius, akhlak mulia, dan toleransi antarumat beragama yang harmonis di lingkungan sekolah.",
+    missions: [
+      "Memimpin pelaksanaan peringatan hari-hari besar keagamaan secara khidmat dan inklusif.",
+      "Mengkoordinasikan kegiatan pembiasaan ibadah rutin harian siswa.",
+      "Menjadi teladan dalam pembinaan budi pekerti, kejujuran, dan sopan santun."
+    ],
+    programs: [
+      "Peringatan Hari Besar Keagamaan Nasional",
+      "Taruna Peduli: Bakti Sosial Ramadhan & Hari Raya",
+      "Forum Kajian Karakter & Etika Generasi Muda"
+    ]
+  },
+  "agama-abigail": {
+    name: "Abigail",
+    role: "Anggota Agama",
+    badge: "Anggota Agama",
+    division: "Divisi Kerohanian & Budi Pekerti",
+    image: "assets/LogoTM.jpeg",
+    vision: "Mempererat persaudaraan, cinta kasih, dan kerukunan seluruh siswa dengan saling menghargai keyakinan.",
+    missions: [
+      "Mengorganisasi persekutuan doa dan ibadah bersama bagi siswa yang merayakan hari besar Kristiani.",
+      "Mendorong aksi peduli kemanusiaan dan kunjungan ke panti asuhan.",
+      "Membangun dialog antaragama yang menyejukkan di kalangan siswa."
+    ],
+    programs: [
+      "Perayaan Natal Bersama Sekolah",
+      "Aksi Kasih & Kunjungan Panti Asuhan",
+      "Dialog Kerukunan Pelajar Taruna"
+    ]
+  },
+  "agama-azizah": {
+    name: "Azizah",
+    role: "Anggota Agama",
+    badge: "Anggota Agama",
+    division: "Divisi Kerohanian & Budi Pekerti",
+    image: "assets/LogoTM.jpeg",
+    vision: "Menumbuhkan kecintaan membaca kitab suci dan memperdalam pemahaman ajaran agama dalam kehidupan sehari-hari.",
+    missions: [
+      "Mengelola kegiatan tadarus bersama dan kajian keputrian rutin setiap pekan.",
+      "Menyiapkan materi tausiyah singkat edukatif di majalah dinding rohani.",
+      "Membantu penataan dan kebersihan tempat ibadah sekolah."
+    ],
+    programs: [
+      "Tadarus Pagi & Kajian Keputrian Rutin",
+      "Pojok Mading Rohani Inspiratif",
+      "Gerakan Sholat Berjamaah Tepat Waktu"
+    ]
+  },
+  "agama-abdoel": {
+    name: "Abdoel",
+    role: "Anggota Agama",
+    badge: "Anggota Agama",
+    division: "Divisi Kerohanian & Budi Pekerti",
+    image: "assets/LogoTM.jpeg",
+    vision: "Membangun kepedulian sosial yang nyata melalui penggalangan infaq dan bantuan korban bencana alam.",
+    missions: [
+      "Mengkoordinasi pengelolaan kotak infaq Jumat berkah dan zakat fitrah sekolah.",
+      "Menyalurkan bantuan tanggap bencana secara cepat, transparan, dan tepat sasaran.",
+      "Menggerakkan partisipasi relawan siswa dalam kegiatan bakti sosial."
+    ],
+    programs: [
+      "Infaq Jumat Berkah & Tanggap Bencana",
+      "Penyaluran Zakat & Sedekah Taruna",
+      "Relawan Sahabat Dhuafa Sekolah"
+    ]
+  },
+  "agama-garneto": {
+    name: "Garneto",
+    role: "Anggota Agama",
+    badge: "Anggota Agama",
+    division: "Divisi Kerohanian & Budi Pekerti",
+    image: "assets/LogoTM.jpeg",
+    vision: "Menegakkan budaya 5S (Senyum, Salam, Sapa, Sopan, Santun) demi terwujudnya sekolah yang damai dan beradab.",
+    missions: [
+      "Mengampanyekan sikap anti-perundungan (stop bullying) berlandaskan etika ketuhanan.",
+      "Menjaga ketertiban dan kekhusyukan saat doa bersama pembukaan dan penutupan pelajaran.",
+      "Membantu pelaksanaan pesantren kilat dan pembinaan rohani berkala."
+    ],
+    programs: [
+      "Kampanye Budaya 5S & Anti-Bullying",
+      "Pesantren Kilat & Retreat Pembinaan Budi Pekerti",
+      "Pembiasaan Doa Bersama Berkarakter"
+    ]
+  },
+
+  // ── DIVISI 5: HUBUNGAN MASYARAKAT (HUMAS) ─────────────────
+  "humas-ifra": {
+    name: "Ifra",
+    role: "Koordinasi Humas",
+    badge: "Koordinator Humas",
+    division: "Divisi Hubungan Masyarakat",
+    image: "assets/LogoTM.jpeg",
+    vision: "Membangun jembatan komunikasi yang transparan, terpercaya, dan proaktif antara OSIS, seluruh siswa, dewan guru, dan institusi eksternal.",
+    missions: [
+      "Memimpin strategi pengelolaan kotak aspirasi dan advokasi suara siswa ke pihak sekolah.",
+      "Menjalin relasi diplomasi dan kolaborasi antarsekolah di tingkat kota/provinsi.",
+      "Memastikan keterbukaan informasi seluruh program kerja OSIS secara tepat dan santun."
+    ],
+    programs: [
+      "Forum Aspirasi Terbuka: Suara Taruna",
+      "Studi Banding OSIS Antarsekolah",
+      "Konferensi Pers & Rilis Program Kerja"
+    ]
+  },
+  "humas-jasmine": {
+    name: "Jasmine",
+    role: "Anggota Humas",
+    badge: "Anggota Humas",
+    division: "Divisi Hubungan Masyarakat",
+    image: "assets/LogoTM.jpeg",
+    vision: "Mendengar setiap masukan dan keluh kesah siswa dengan empati serta memberikan tanggapan yang konstruktif.",
+    missions: [
+      "Mengelola kotak saran fisik dan form aspirasi daring secara rahasia dan bertanggung jawab.",
+      "Merekapitulasi isu-isu utama kebutuhan siswa untuk dibahas bersama perwakilan kelas (MPK).",
+      "Menjembatani mediasi antarsiswa guna menjaga suasana belajar yang kondusif."
+    ],
+    programs: [
+      "Kotak Saran Digital & Kotak Aspirasi Kelas",
+      "Rapat Dengar Pendapat Perwakilan Kelas",
+      "Survei Kepuasan Siswa Terhadap OSIS"
+    ]
+  },
+  "humas-putra": {
+    name: "Putra",
+    role: "Anggota Humas",
+    badge: "Anggota Humas",
+    division: "Divisi Hubungan Masyarakat",
+    image: "assets/LogoTM.jpeg",
+    vision: "Membangun jaringan kemitraan eksternal dan sponsorship yang kokoh untuk mendukung kelancaran kegiatan siswa.",
+    missions: [
+      "Menyusun proposal sponsorship dan menjalin komunikasi dengan mitra pihak ketiga yang relevan.",
+      "Menyambut dan mendampingi tamu luar sekolah serta narasumber seminar.",
+      "Menjaga citra baik nama almamater Sekolah Taruna Mandiri di ruang publik."
+    ],
+    programs: [
+      "Kemitraan Sponsorship & Kerjasama Acara",
+      "Protokoler Penyambutan Tamu Sekolah",
+      "Database Relasi Eksternal & Lembaga Mitra"
+    ]
+  },
+  "humas-sasi": {
+    name: "Sasi",
+    role: "Anggota Humas",
+    badge: "Anggota Humas",
+    division: "Divisi Hubungan Masyarakat",
+    image: "assets/LogoTM.jpeg",
+    vision: "Menyebarkan informasi dan kabar prestasi sekolah secara cepat, akurat, dan menginspirasi.",
+    missions: [
+      "Menerbitkan buletin berkala dan siaran warta humas mengenai agenda sekolah.",
+      "Berkoordinasi dengan perwakilan kelas untuk distribusi pengumuman resmi OSIS.",
+      "Mempublikasikan apresiasi bagi siswa-siswi yang meraih prestasi membanggakan."
+    ],
+    programs: [
+      "Buletin Warta Taruna Edisi Bulanan",
+      "Jalur Komunikasi Cepat Ketua Kelas",
+      "Apresiasi Bintang Prestasi Taruna"
+    ]
+  },
+  "humas-kayla": {
+    name: "Kayla",
+    role: "Anggota Humas",
+    badge: "Anggota Humas",
+    division: "Divisi Hubungan Masyarakat",
+    image: "assets/LogoTM.jpeg",
+    vision: "Mempererat ikatan silaturahmi dengan para alumni guna membuka peluang mentoring dan bimbingan karir masa depan.",
+    missions: [
+      "Membangun database kontak alumni yang berprestasi di berbagai perguruan tinggi dan karir.",
+      "Mengundang alumni sukses untuk berbagi pengalaman dalam sesi talkshow inspiratif.",
+      "Memfasilitasi forum temu kangen dan kontribusi alumni bagi pengembangan sekolah."
+    ],
+    programs: [
+      "Taruna Alumni Mentorship Talkshow",
+      "Database Ikatan Alumni Taruna Mandiri",
+      "Bakti Alumni untuk Almamater"
+    ]
+  },
+  "humas-nadja": {
+    name: "Nadja",
+    role: "Anggota Humas",
+    badge: "Anggota Humas",
+    division: "Divisi Hubungan Masyarakat",
+    image: "assets/LogoTM.jpeg",
+    vision: "Mengemas komunikasi publik OSIS yang ramah, sopan, dan representatif bagi dunia luar maupun media sosial.",
+    missions: [
+      "Bertindak sebagai Master of Ceremony (MC) dan pemandu acara dalam kegiatan resmi organisasi.",
+      "Menangani korespondensi surat undangan antarorganisasi dan instansi dinas.",
+      "Memastikan tata krama diplomasi sekolah tetap terjaga dengan integritas tinggi."
+    ],
+    programs: [
+      "Pelatihan Public Speaking & MC Siswa",
+      "Pengelolaan Surat Diplomasi Antarsekolah",
+      "Duta Komunikasi & Hospitality Sekolah"
     ]
   }
 };
@@ -365,28 +823,22 @@ const OSIS_MEMBERS = {
   });
 })();
 
-// ── Gallery load more ──────────────────────────────────────
+// ── Gallery load more (Membuka Arsip Google Drive) ─────────
 (function initGalleryLoadMore() {
   const btn = qs('#galleryLoadMore');
   if (!btn) return;
 
-  btn.addEventListener('click', () => {
-    const text = btn.querySelector('.btn__text');
-    const icon = btn.querySelector('.btn__icon');
-
-    btn.disabled = true;
-    text.textContent = 'Memuat…';
-    icon.textContent = '↻';
-    icon.style.animation = 'spin 0.8s linear infinite';
-
-    setTimeout(() => {
-      btn.disabled = false;
-      text.textContent = 'Semua Dokumentasi Ditampilkan';
-      icon.textContent = '✓';
-      icon.style.animation = '';
-      btn.style.borderColor = 'rgba(201,168,76,0.5)';
-      btn.style.color = 'rgba(201,168,76,0.9)';
-    }, 1200);
+  btn.addEventListener('click', (e) => {
+    // Jika elemen adalah tautan anchor <a>, pastikan href mengarah ke URL Google Drive
+    if (btn.tagName.toLowerCase() === 'a') {
+      btn.setAttribute('href', GOOGLE_DRIVE_DOCS_URL);
+      btn.setAttribute('target', '_blank');
+      btn.setAttribute('rel', 'noopener noreferrer');
+      return;
+    }
+    // Jika elemen berupa tombol, buka link Google Drive di tab baru
+    e.preventDefault();
+    window.open(GOOGLE_DRIVE_DOCS_URL, '_blank', 'noopener,noreferrer');
   });
 })();
 
