@@ -888,12 +888,12 @@ em { font-style: italic; }
 
 .profile-card__img-wrap {
   position: relative;
-  width: 120px;
+  width: 150px;
 }
 
 .profile-card__img {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--pearl-warm), #DDD9CF);
   border: 3px solid rgba(201, 168, 76, 0.3);
@@ -2117,12 +2117,12 @@ body.modal-open {
   }
 
   .profile-card__img-wrap {
-    width: clamp(90px, 26vw, 110px);
+    width: clamp(110px, 28vw, 140px);
   }
 
   .profile-card__img {
-    width: clamp(90px, 26vw, 110px);
-    height: clamp(90px, 26vw, 110px);
+    width: clamp(110px, 28vw, 140px);
+    height: clamp(110px, 28vw, 140px);
   }
 
   .profile-card__placeholder,

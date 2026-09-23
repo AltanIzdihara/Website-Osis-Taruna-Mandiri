@@ -7,7 +7,7 @@
 
 // ── Konfigurasi URL Arsip Google Drive Dokumentasi OSIS ────
 // Ganti URL di bawah ini dengan tautan folder Google Drive dokumentasi resmi OSIS Anda:
-const GOOGLE_DRIVE_DOCS_URL = 'https://drive.google.com/drive/folders/1OSIS-TarunaMandiri-Dokumentasi-Archive';
+const GOOGLE_DRIVE_DOCS_URL = 'https://drive.google.com/drive/folders/1cmWBuaZ6cVkEgeO37uouLKrPVnNicq1J?usp=drive_link';
 
 // ── Utility ────────────────────────────────────────────────
 const qs  = (sel, ctx = document) => ctx.querySelector(sel);
@@ -31,7 +31,13 @@ const OSIS_MEMBERS = {
       "Taruna Leadership Summit & Character Camp",
       "Pekan Sinergi & Apresiasi Prestasi Siswa",
       "Forum Dialog Aspirasi Terpadu"
-    ]
+    ],
+    // Ketua
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
+
   },
   "wakil": {
     name: "Azri Danish Elthian",
@@ -49,7 +55,13 @@ const OSIS_MEMBERS = {
       "Internal Team Building & Leadership Workshop",
       "Sistem Monitoring Program Kerja Terpadu",
       "Pekan Disiplin & Solidaritas Siswa"
-    ]
+    ],
+    // Wakil
+    socials: {
+      instagram: { handle: "@danish.elthian", url: "https://instagram.com/danish.elthian" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
+  
   },
   "sekretaris-1": {
     name: "Rista Anggreani Nababan",
@@ -67,7 +79,12 @@ const OSIS_MEMBERS = {
       "Digital Administrative Hub OSIS",
       "Penyusunan Risalah & Arsip Tahunan Organisasi",
       "Standardisasi Dokumen Surat & Proposal Kegiatan"
-    ]
+    ],
+    // Sekre 1
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
   "sekretaris-2": {
     name: "Danishwara C.Hazman",
@@ -85,7 +102,12 @@ const OSIS_MEMBERS = {
       "Kalender Kegiatan & Agenda Terpadu Sekolah",
       "Database & Inventarisasi Anggota Digital",
       "Publikasi Notulensi & Buletin Kerja Bulanan"
-    ]
+    ],
+    // Sekre 2
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
   "bendahara-1": {
     name: "Aiko Azarine",
@@ -103,7 +125,12 @@ const OSIS_MEMBERS = {
       "Laporan Transparansi Kas Bulanan OSIS",
       "Audit Efisiensi Anggaran Proker Terpadu",
       "Standardisasi Pembukuan Kas Digital"
-    ]
+    ],
+    // Bendahara 1
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
   "bendahara-2": {
     name: "Dania Tsabita Kusnandar",
@@ -121,16 +148,21 @@ const OSIS_MEMBERS = {
       "Kewirausahaan Mandiri Siswa (Taruna Merch)",
       "Digital Cash Receipt & Invoice Tracking",
       "Alokasi Dana Taktis & Tanggap Siswa"
-    ]
+    ],
+    // Bendahara 2
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
-  // ── DIVISI 1: PUBLIKASI, DEKORASI & DOKUMENTASI (PDD) ────
+  // ── DIVISI 1: PUBLIKASI DAN DESAIN (PDD) ────
   "pdd-altan": {
-    name: "Altan",
+    name: "M.Altan Izdihara Ramadhan",
     role: "Koordinasi PDD",
-    badge: "Koordinator PDD",
-    division: "Divisi Publikasi, Dekorasi & Dokumentasi",
+    badge: "Koor PDD",
+    division: "Divisi Publikasi Dan Desain",
     image: "assets/LogoTM.jpeg",
-    vision: "Menghadirkan citra visual OSIS yang berkelas, artistik, dan profesional sebagai etalase prestasi dan karya siswa Taruna Mandiri.",
+    vision: "Menghadirkan citra visual OSIS yang berkelas, artistik, dan profesional sebagai etalase prestasi dan karya siswa Taruna Mandiri. #ITB Its Calling",
     missions: [
       "Memimpin perencanaan konsep multimedia, publikasi digital, dan tata dekorasi di setiap kegiatan akbar sekolah.",
       "Menyelaraskan alur kerja tim dokumentasi, editor visual, dan perancang panggung agar tepat waktu dan berstandar tinggi.",
@@ -140,10 +172,15 @@ const OSIS_MEMBERS = {
       "Grand Aftermovie Acara Tahunan",
       "Master Visual Identity & Media Kit OSIS",
       "Manajemen Tata Panggung & Lighting Acara"
-    ]
+    ],
+    // Koor PDD
+socials: {
+  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
   "pdd-khadziya": {
-    name: "Khadziya",
+    name: "Khadziya Ramadhani Gultom",
     role: "Anggota PDD",
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
@@ -158,10 +195,15 @@ const OSIS_MEMBERS = {
       "Kampanye Visual Media Sosial Mingguan",
       "Desain Poster Interaktif Kegiatan",
       "Instagram Story Highlights & Recap"
-    ]
+    ],
+    // Anggota PDD
+socials: {
+  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
   "pdd-janpiter": {
-    name: "Janpiter",
+    name: "Piter Tampubolon",
     role: "Anggota PDD",
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
@@ -176,10 +218,15 @@ const OSIS_MEMBERS = {
       "Video Dokumentasi & Teaser Kegiatan",
       "Short Reels Sinematik Acara Sekolah",
       "Arsip Cloud Footage Acara"
-    ]
+    ],
+    // Anggota PDD
+socials: {
+  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
   "pdd-kembang": {
-    name: "Kembang",
+    name: "Kembang Cahsingpadang W",
     role: "Anggota PDD",
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
@@ -194,10 +241,15 @@ const OSIS_MEMBERS = {
       "Dekorasi Tematik Acara Sekolah",
       "Instalasi Photobooth Interaktif",
       "Pojok Karya Seni & Galeri Mini"
-    ]
+    ],
+    // Anggota PDD
+socials: {
+  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
   "pdd-atika": {
-    name: "Atika",
+    name: "Atika Putri Najmiya",
     role: "Anggota PDD",
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
@@ -212,10 +264,15 @@ const OSIS_MEMBERS = {
       "Desain Sertifikat & Booklet Acara",
       "Ilustrasi Karakter Edukatif Taruna",
       "Infografis Rangkuman Kegiatan Siswa"
-    ]
+    ],
+    // Anggota PDD
+socials: {
+  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
   "pdd-said": {
-    name: "Said",
+    name: "Said Jibril Tjikoe",
     role: "Anggota PDD",
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
@@ -230,10 +287,15 @@ const OSIS_MEMBERS = {
       "Fotografi Dokumentasi Eksklusif",
       "Kurasi Foto Momen Terbaik Mingguan",
       "Koleksi Foto Portofolio Angkatan"
-    ]
+    ],
+    // Anggota PDD
+socials: {
+  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
   "pdd-malaeka": {
-    name: "Malaeka",
+    name: "Malaeka Ayu Siti Almiah",
     role: "Anggota PDD",
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
@@ -248,14 +310,19 @@ const OSIS_MEMBERS = {
       "Digital Yearbook & Buku Kenangan",
       "Sistem Manajemen Arsip Foto Cloud",
       "Rilis Kilat Dokumentasi Pasca-Event"
-    ]
+    ],
+    // Anggota PDD
+socials: {
+  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
 
   // ── DIVISI 2: PENDIDIKAN & LINGKUNGAN HIDUP (PELITA) ───────
   "pelita-nayla": {
-    name: "Nayla",
+    name: "Nayla Alifa Anzalika",
     role: "Koordinasi Pelita",
-    badge: "Koordinator Pelita",
+    badge: "Koor Pelita",
     division: "Divisi Pendidikan & Lingkungan Hidup",
     image: "assets/LogoTM.jpeg",
     vision: "Membangun atmosfer sekolah yang haus ilmu, berdaya nalar kritis, dan peduli terhadap kelestarian lingkungan hidup.",
@@ -271,7 +338,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "pelita-galih": {
-    name: "Galih",
+    name: "Galih Andhika Praditya",
     role: "Anggota Pelita",
     badge: "Anggota Pelita",
     division: "Divisi Pendidikan & Lingkungan Hidup",
@@ -289,7 +356,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "pelita-nadhira": {
-    name: "Nadhira",
+    name: "Nadhira Izza Afkarina",
     role: "Anggota Pelita",
     badge: "Anggota Pelita",
     division: "Divisi Pendidikan & Lingkungan Hidup",
@@ -307,7 +374,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "pelita-zahra": {
-    name: "Zahra",
+    name: "Zahra Kamilya Bilqis",
     role: "Anggota Pelita",
     badge: "Anggota Pelita",
     division: "Divisi Pendidikan & Lingkungan Hidup",
@@ -325,7 +392,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "pelita-shafa": {
-    name: "Shafa",
+    name: "Paquetta Shafa Aphrodite",
     role: "Anggota Pelita",
     badge: "Anggota Pelita",
     division: "Divisi Pendidikan & Lingkungan Hidup",
@@ -345,9 +412,9 @@ const OSIS_MEMBERS = {
 
   // ── DIVISI 3: SENI & OLAHRAGA (SENIORA) ────────────────────
   "seniora-imam": {
-    name: "Imam",
+    name: "Imam Sulistomo",
     role: "Koordinasi Seniora",
-    badge: "Koordinator Seniora",
+    badge: "Koor Seniora",
     division: "Divisi Seni & Olahraga",
     image: "assets/LogoTM.jpeg",
     vision: "Menyalurkan energi positif, sportivitas, dan kreativitas siswa Taruna Mandiri melalui panggung seni dan arena olahraga yang bergengsi.",
@@ -363,7 +430,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "seniora-nethanya": {
-    name: "Nethanya",
+    name: "Nethanya Azatalya Nareswari",
     role: "Anggota Seniora",
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
@@ -381,7 +448,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "seniora-alvin": {
-    name: "Alvin",
+    name: "Muhammad Alvin Januar",
     role: "Anggota Seniora",
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
@@ -399,7 +466,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "seniora-raditya": {
-    name: "Raditya",
+    name: "I Gde Bintang Raditya",
     role: "Anggota Seniora",
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
@@ -417,7 +484,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "seniora-novzhafran": {
-    name: "Novzhafran",
+    name: "Muhammad Novzhafran",
     role: "Anggota Seniora",
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
@@ -435,7 +502,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "seniora-asha": {
-    name: "Asha",
+    name: "Asha Meidina Setyaningrum",
     role: "Anggota Seniora",
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
@@ -453,7 +520,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "seniora-talitha": {
-    name: "Talitha",
+    name: "Talitha Luthfia Azzarine",
     role: "Anggota Seniora",
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
@@ -473,9 +540,9 @@ const OSIS_MEMBERS = {
 
   // ── DIVISI 4: KEROHANIAN & BUDI PEKERTI (AGAMA) ───────────
   "agama-rafa": {
-    name: "Rafa",
+    name: "Fathi Fawwaz Ar Rafaa",
     role: "Koordinasi Agama",
-    badge: "Koordinator Agama",
+    badge: "Koor Agama",
     division: "Divisi Kerohanian & Budi Pekerti",
     image: "assets/LogoTM.jpeg",
     vision: "Menanamkan nilai-nilai religius, akhlak mulia, dan toleransi antarumat beragama yang harmonis di lingkungan sekolah.",
@@ -491,7 +558,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "agama-abigail": {
-    name: "Abigail",
+    name: "Abigail Anandhya Raharjani",
     role: "Anggota Agama",
     badge: "Anggota Agama",
     division: "Divisi Kerohanian & Budi Pekerti",
@@ -509,7 +576,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "agama-azizah": {
-    name: "Azizah",
+    name: "Azizah Octavia",
     role: "Anggota Agama",
     badge: "Anggota Agama",
     division: "Divisi Kerohanian & Budi Pekerti",
@@ -527,7 +594,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "agama-abdoel": {
-    name: "Abdoel",
+    name: "Abdoel Agiez FD",
     role: "Anggota Agama",
     badge: "Anggota Agama",
     division: "Divisi Kerohanian & Budi Pekerti",
@@ -545,7 +612,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "agama-garneto": {
-    name: "Garneto",
+    name: "Garneto Dama Kawiswara",
     role: "Anggota Agama",
     badge: "Anggota Agama",
     division: "Divisi Kerohanian & Budi Pekerti",
@@ -565,9 +632,9 @@ const OSIS_MEMBERS = {
 
   // ── DIVISI 5: HUBUNGAN MASYARAKAT (HUMAS) ─────────────────
   "humas-ifra": {
-    name: "Ifra",
+    name: "Ifra Shafana",
     role: "Koordinasi Humas",
-    badge: "Koordinator Humas",
+    badge: "Koor Humas",
     division: "Divisi Hubungan Masyarakat",
     image: "assets/LogoTM.jpeg",
     vision: "Membangun jembatan komunikasi yang transparan, terpercaya, dan proaktif antara OSIS, seluruh siswa, dewan guru, dan institusi eksternal.",
@@ -583,7 +650,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "humas-jasmine": {
-    name: "Jasmine",
+    name: "Jasmine Novalia Tobing",
     role: "Anggota Humas",
     badge: "Anggota Humas",
     division: "Divisi Hubungan Masyarakat",
@@ -601,7 +668,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "humas-putra": {
-    name: "Putra",
+    name: "Putra Claren Riwu",
     role: "Anggota Humas",
     badge: "Anggota Humas",
     division: "Divisi Hubungan Masyarakat",
@@ -619,7 +686,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "humas-sasi": {
-    name: "Sasi",
+    name: "Sasi Fitri Ayu Erlangga",
     role: "Anggota Humas",
     badge: "Anggota Humas",
     division: "Divisi Hubungan Masyarakat",
@@ -637,7 +704,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "humas-kayla": {
-    name: "Kayla",
+    name: "Kayla Aisha Farhana Sabrie",
     role: "Anggota Humas",
     badge: "Anggota Humas",
     division: "Divisi Hubungan Masyarakat",
@@ -655,7 +722,7 @@ const OSIS_MEMBERS = {
     ]
   },
   "humas-nadja": {
-    name: "Nadja",
+    name: "Nadja Zyarifa",
     role: "Anggota Humas",
     badge: "Anggota Humas",
     division: "Divisi Hubungan Masyarakat",
@@ -894,6 +961,55 @@ const OSIS_MEMBERS = {
         <span class="proker-badge__title">${p}</span>
       </div>
     `).join('');
+
+    // Render Sosmed Personal
+const socialsGrid = qs('#modalSocialsGrid');
+const socialsBlock = qs('#modalSocialsBlock');
+if (socialsGrid) {
+  const s = data.socials || {};
+  let html = '';
+
+  if (s.instagram) {
+    html += `
+      <a href="${s.instagram.url}" target="_blank" rel="noopener noreferrer" class="modal-social-card modal-social-card--ig">
+        <div class="modal-social-card__icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </div>
+        <div class="modal-social-card__content">
+          <span class="modal-social-card__platform">Instagram</span>
+          <span class="modal-social-card__handle">${s.instagram.handle}</span>
+        </div>
+        <span class="modal-social-card__arrow" aria-hidden="true">↗</span>
+      </a>`;
+  }
+
+  if (s.tiktok) {
+    html += `
+      <a href="${s.tiktok.url}" target="_blank" rel="noopener noreferrer" class="modal-social-card modal-social-card--tiktok">
+        <div class="modal-social-card__icon">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.35 0 .69.06 1 .17V9.08a6.37 6.37 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.34a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.75a8.16 8.16 0 0 0 4.91 1.63V6.94a4.85 4.85 0 0 1-1-.25z"/>
+          </svg>
+        </div>
+        <div class="modal-social-card__content">
+          <span class="modal-social-card__platform">TikTok</span>
+          <span class="modal-social-card__handle">${s.tiktok.handle}</span>
+        </div>
+        <span class="modal-social-card__arrow" aria-hidden="true">↗</span>
+      </a>`;
+  }
+
+  socialsGrid.innerHTML = html;
+  // Sembunyikan block sosmed kalau tidak ada data sama sekali
+  if (socialsBlock) {
+    socialsBlock.style.display = (!s.instagram && !s.tiktok) ? 'none' : '';
+  }
+}
+
 
     // Open states
     modal.classList.add('is-open');
