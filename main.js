@@ -174,9 +174,9 @@ const OSIS_MEMBERS = {
       "Manajemen Tata Panggung & Lighting Acara"
     ],
     // Koor PDD
-socials: {
-  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
 },
   },
   "pdd-khadziya": {
@@ -197,9 +197,9 @@ socials: {
       "Instagram Story Highlights & Recap"
     ],
     // Anggota PDD
-socials: {
-  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
 },
   },
   "pdd-janpiter": {
@@ -220,9 +220,9 @@ socials: {
       "Arsip Cloud Footage Acara"
     ],
     // Anggota PDD
-socials: {
-  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
 },
   },
   "pdd-kembang": {
@@ -266,9 +266,9 @@ socials: {
       "Infografis Rangkuman Kegiatan Siswa"
     ],
     // Anggota PDD
-socials: {
-  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
 },
   },
   "pdd-said": {
@@ -289,9 +289,9 @@ socials: {
       "Koleksi Foto Portofolio Angkatan"
     ],
     // Anggota PDD
-socials: {
-  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
 },
   },
   "pdd-malaeka": {
@@ -312,9 +312,9 @@ socials: {
       "Rilis Kilat Dokumentasi Pasca-Event"
     ],
     // Anggota PDD
-socials: {
-  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
 },
   },
 
@@ -335,7 +335,12 @@ socials: {
       "Taruna Academic Festival & Olympiad",
       "Gerakan Taruna Green School & Zero Plastic",
       "Forum Diskusi Ilmiah Siswa"
-    ]
+    ],
+    // Koor Pelita
+    socials: {
+      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
+      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
+},
   },
   "pelita-galih": {
     name: "Galih Andhika Praditya",
