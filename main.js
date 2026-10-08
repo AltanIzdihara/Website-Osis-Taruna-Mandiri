@@ -21,23 +21,12 @@ const OSIS_MEMBERS = {
     badge: "Ketua",
     division: "Badan Pengurus Harian Inti",
     image: "assets/LogoTM.jpeg",
-    vision: "Mewujudkan OSIS Sekolah Taruna Mandiri yang inklusif, proaktif, dan berdaya saing tinggi sebagai lokomotif pengembangan karakter dan kepemimpinan siswa yang unggul.",
-    missions: [
-      "Mengoptimalkan peran OSIS sebagai wadah representatif penampung dan pengawal aspirasi seluruh warga sekolah.",
-      "Meningkatkan sinergi dan kolaborasi antarsubdivisi guna melahirkan inisiatif program yang berbobot dan berkelanjutan.",
-      "Menumbuhkan kultur kepemimpinan siswa yang berintegritas, berempati, dan siap bersaing di tingkat nasional."
-    ],
-    programs: [
-      "Taruna Leadership Summit & Character Camp",
-      "Pekan Sinergi & Apresiasi Prestasi Siswa",
-      "Forum Dialog Aspirasi Terpadu"
-    ],
-    // Ketua
+    bio: "Pemimpin yang berdedikasi membangun sinergi, integritas, dan semangat kebersamaan seluruh siswa Taruna Mandiri menuju organisasi yang berdaya saing.",
+    hobbies: ["Public Speaking", "Debat Organisasi", "Membaca Buku", "Catur"],
     socials: {
       instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
       tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
-
+    }
   },
   "wakil": {
     name: "Azri Danish Elthian",
@@ -45,23 +34,12 @@ const OSIS_MEMBERS = {
     badge: "Wakil Ketua",
     division: "Badan Pengurus Harian Inti",
     image: "assets/LogoTM.jpeg",
-    vision: "Membangun soliditas internal kepengurusan dan kesinambungan eksekusi program kerja OSIS yang terukur, adaptif, dan berorientasi hasil nyata.",
-    missions: [
-      "Menjamin efektivitas koordinasi operasional lintas divisi dan kepanitiaan kegiatan sekolah.",
-      "Mengembangkan sistem monitoring dan evaluasi berkala untuk seluruh inisiatif OSIS.",
-      "Menjadi mitra strategis Ketua OSIS dalam membangun komunikasi harmonis dengan dewan guru dan perwakilan kelas."
-    ],
-    programs: [
-      "Internal Team Building & Leadership Workshop",
-      "Sistem Monitoring Program Kerja Terpadu",
-      "Pekan Disiplin & Solidaritas Siswa"
-    ],
-    // Wakil
+    bio: "Fokus pada penguatan soliditas internal, koordinasi lintas divisi, serta kedisiplinan eksekusi program demi kemajuan sekolah bersama.",
+    hobbies: ["Futsal", "Manajemen Tim", "Badminton", "Musik Akustik"],
     socials: {
       instagram: { handle: "@danish.elthian", url: "https://instagram.com/danish.elthian" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
-  
+      tiktok:    { handle: "@danishelthian", url: "https://tiktok.com/@danishelthian" }
+    }
   },
   "sekretaris-1": {
     name: "Rista Anggreani Nababan",
@@ -69,22 +47,12 @@ const OSIS_MEMBERS = {
     badge: "Sekretaris I",
     division: "Administrasi & Kesekretariatan",
     image: "assets/LogoTM.jpeg",
-    vision: "Mewujudkan tata kelola administrasi dan pengarsipan OSIS yang tertib, transparan, akurat, dan terdigitalisasi.",
-    missions: [
-      "Menyusun sistem dokumentasi surat-menyurat dan proposal kegiatan yang rapi, cepat, dan akurat.",
-      "Mengintegrasikan platform administrasi digital untuk mempermudah distribusi informasi kepengurusan.",
-      "Mendokumentasikan seluruh notulensi rapat dan risalah keputusan secara detail dan tersentralisasi."
-    ],
-    programs: [
-      "Digital Administrative Hub OSIS",
-      "Penyusunan Risalah & Arsip Tahunan Organisasi",
-      "Standardisasi Dokumen Surat & Proposal Kegiatan"
-    ],
-    // Sekre 1
+    bio: "Teliti dan terorganisir dalam mengelola administrasi, pengarsipan resmi, dan korespondensi organisasi demi tata kelola yang profesional.",
+    hobbies: ["Menulis Jurnal", "Tipografi", "Membaca Novel", "Bulu Tangkis"],
     socials: {
-      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+      instagram: { handle: "@rista.anggreani", url: "https://instagram.com/rista.anggreani" },
+      tiktok:    { handle: "@rista_anggreani", url: "https://tiktok.com/@rista_anggreani" }
+    }
   },
   "sekretaris-2": {
     name: "Danishwara C.Hazman",
@@ -92,22 +60,12 @@ const OSIS_MEMBERS = {
     badge: "Sekretaris II",
     division: "Administrasi & Kesekretariatan",
     image: "assets/LogoTM.jpeg",
-    vision: "Mendukung kelancaran arus birokrasi dan tata laksana operasional kepengurusan yang efisien, cermat, dan responsif.",
-    missions: [
-      "Mengelola jadwal kegiatan, notulensi berkala, dan data inventaris kepengurusan OSIS.",
-      "Menjaga kelancaran koordinasi persuratan antarseksi dan pembina OSIS.",
-      "Memastikan keteraturan logistik administrasi dalam setiap pelaksanaan agenda sekolah."
-    ],
-    programs: [
-      "Kalender Kegiatan & Agenda Terpadu Sekolah",
-      "Database & Inventarisasi Anggota Digital",
-      "Publikasi Notulensi & Buletin Kerja Bulanan"
-    ],
-    // Sekre 2
+    bio: "Mengedepankan ketepatan data dan efisiensi waktu dalam penyusunan jadwal, risalah rapat, serta inventarisasi dokumen OSIS.",
+    hobbies: ["Coding & Web", "Desain Notulensi", "Membaca Ensiklopedia", "Game Strategi"],
     socials: {
-      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+      instagram: { handle: "@danishwara_ch", url: "https://instagram.com/danishwara_ch" },
+      tiktok:    { handle: "@danishwarach", url: "https://tiktok.com/@danishwarach" }
+    }
   },
   "bendahara-1": {
     name: "Aiko Azarine",
@@ -115,22 +73,12 @@ const OSIS_MEMBERS = {
     badge: "Bendahara I",
     division: "Keuangan & Anggaran",
     image: "assets/LogoTM.jpeg",
-    vision: "Mewujudkan pengelolaan keuangan OSIS yang akuntabel, transparan, hemat, dan berdaya guna maksimal bagi kegiatan siswa.",
-    missions: [
-      "Menyusun pembukuan arus kas (cash flow) yang sistematis dan terverifikasi secara berkala.",
-      "Mengawasi realisasi anggaran belanja setiap divisi agar tepat sasaran dan efisien.",
-      "Menyajikan laporan pertanggungjawaban keuangan yang terbuka dan dapat diakses pembina serta pengurus."
-    ],
-    programs: [
-      "Laporan Transparansi Kas Bulanan OSIS",
-      "Audit Efisiensi Anggaran Proker Terpadu",
-      "Standardisasi Pembukuan Kas Digital"
-    ],
-    // Bendahara 1
+    bio: "Akurat dan transparan dalam tata kelola anggaran kas organisasi guna mendukung suksesnya agenda kegiatan siswa secara akuntabel.",
+    hobbies: ["Manajemen Keuangan", "Baking & Cooking", "Mendengarkan Musik", "Fotografi Estetik"],
     socials: {
-      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+      instagram: { handle: "@aiko_azarine", url: "https://instagram.com/aiko_azarine" },
+      tiktok:    { handle: "@aikoazarine", url: "https://tiktok.com/@aikoazarine" }
+    }
   },
   "bendahara-2": {
     name: "Dania Tsabita Kusnandar",
@@ -138,46 +86,25 @@ const OSIS_MEMBERS = {
     badge: "Bendahara II",
     division: "Keuangan & Anggaran",
     image: "assets/LogoTM.jpeg",
-    vision: "Menciptakan stabilitas finansial kepengurusan serta efektivitas pengelolaan dana taktis dan usaha kreatif siswa.",
-    missions: [
-      "Membantu pencatatan pemasukan, iuran kas, dan dana sponsor kegiatan secara cermat.",
-      "Mengembangkan unit kewirausahaan kreatif OSIS guna menambah kemandirian kas organisasi.",
-      "Memastikan tertib bukti transaksi fisik maupun digital pada seluruh pembelanjaan operasional."
-    ],
-    programs: [
-      "Kewirausahaan Mandiri Siswa (Taruna Merch)",
-      "Digital Cash Receipt & Invoice Tracking",
-      "Alokasi Dana Taktis & Tanggap Siswa"
-    ],
-    // Bendahara 2
+    bio: "Cermat dalam verifikasi alokasi dana dan pencatatan transaksi agar setiap pembiayaan kegiatan berjalan tertib dan tepat guna.",
+    hobbies: ["Matematika Terapan", "Melukis Cat Air", "Bulu Tangkis", "Menyusun Planner"],
     socials: {
-      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+      instagram: { handle: "@dania_tsabita", url: "https://instagram.com/dania_tsabita" },
+      tiktok:    { handle: "@daniatsabita", url: "https://tiktok.com/@daniatsabita" }
+    }
   },
-  // ── DIVISI 1: PUBLIKASI DAN DESAIN (PDD) ────
   "pdd-altan": {
     name: "M.Altan Izdihara Ramadhan",
     role: "Koordinasi PDD",
-    badge: "Koor PDD",
+    badge: "Koordinator PDD",
     division: "Divisi Publikasi Dan Desain",
     image: "assets/LogoTM.jpeg",
-    vision: "Menghadirkan citra visual OSIS yang berkelas, artistik, dan profesional sebagai etalase prestasi dan karya siswa Taruna Mandiri. #ITB Its Calling",
-    missions: [
-      "Memimpin perencanaan konsep multimedia, publikasi digital, dan tata dekorasi di setiap kegiatan akbar sekolah.",
-      "Menyelaraskan alur kerja tim dokumentasi, editor visual, dan perancang panggung agar tepat waktu dan berstandar tinggi.",
-      "Menjaga konsistensi identitas visual OSIS di seluruh media informasi fisik maupun daring."
-    ],
-    programs: [
-      "Grand Aftermovie Acara Tahunan",
-      "Master Visual Identity & Media Kit OSIS",
-      "Manajemen Tata Panggung & Lighting Acara"
-    ],
-    // Koor PDD
+    bio: "Kreator visual yang berfokus menciptakan identitas desain modern, sinematografi acara, dan media publikasi digital OSIS yang berkelas.",
+    hobbies: ["Graphic Design", "UI/UX Design", "Videografi", "Street Photography"],
     socials: {
-      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+      instagram: { handle: "@altan.izdihara", url: "https://instagram.com/altan.izdihara" },
+      tiktok:    { handle: "@altanizdihara", url: "https://tiktok.com/@altanizdihara" }
+    }
   },
   "pdd-khadziya": {
     name: "Khadziya Ramadhani Gultom",
@@ -185,22 +112,12 @@ const OSIS_MEMBERS = {
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
     image: "assets/LogoTM.jpeg",
-    vision: "Menciptakan narasi visual yang menarik, informatif, dan estetik untuk menjangkau seluruh siswa secara kreatif.",
-    missions: [
-      "Merancang materi konten feeds dan story media sosial yang interaktif dan komunikatif.",
-      "Menyusun tata letak poster informasi, banner promosi, dan jadwal agenda sekolah.",
-      "Membantu kurasi foto dan video terbaik untuk publikasi berkala."
-    ],
-    programs: [
-      "Kampanye Visual Media Sosial Mingguan",
-      "Desain Poster Interaktif Kegiatan",
-      "Instagram Story Highlights & Recap"
-    ],
-    // Anggota PDD
+    bio: "Antusias dalam merancang tata letak feeds sosial media, ilustrasi kreatif, dan konten informatif yang menarik perhatian siswa.",
+    hobbies: ["Digital Illustration", "Motion Graphic", "Hand Lettering", "Koleksi Seni"],
     socials: {
-      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+      instagram: { handle: "@khadziya_rm", url: "https://instagram.com/khadziya_rm" },
+      tiktok:    { handle: "@khadziyarm", url: "https://tiktok.com/@khadziyarm" }
+    }
   },
   "pdd-janpiter": {
     name: "Piter Tampubolon",
@@ -208,22 +125,12 @@ const OSIS_MEMBERS = {
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
     image: "assets/LogoTM.jpeg",
-    vision: "Mengabadikan setiap momentum berharga sekolah dengan kualitas sinematik dan komposisi visual yang menginspirasi.",
-    missions: [
-      "Bertindak sebagai videografer utama pada liputan langsung kegiatan siswa dan upacara bendera.",
-      "Melakukan proses editing, color grading, dan audio mixing video recap kegiatan.",
-      "Mengelola penyimpanan arsip video mentah dan aset rekaman sekolah."
-    ],
-    programs: [
-      "Video Dokumentasi & Teaser Kegiatan",
-      "Short Reels Sinematik Acara Sekolah",
-      "Arsip Cloud Footage Acara"
-    ],
-    // Anggota PDD
+    bio: "Pengambil momen visual di balik lensa dengan ketajaman estetika dokumentasi kegiatan dan produksi video profil sekolah.",
+    hobbies: ["Dokumentasi Foto", "Color Grading", "Editing Video", "Gitar Akustik"],
     socials: {
-      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+      instagram: { handle: "@piter_tampubolon", url: "https://instagram.com/piter_tampubolon" },
+      tiktok:    { handle: "@pitertampubolon", url: "https://tiktok.com/@pitertampubolon" }
+    }
   },
   "pdd-kembang": {
     name: "Kembang Cahsingpadang W",
@@ -231,22 +138,12 @@ const OSIS_MEMBERS = {
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
     image: "assets/LogoTM.jpeg",
-    vision: "Mewujudkan tata ruang dekorasi dan instalasi panggung yang tematik, memukau, dan sarat nilai seni.",
-    missions: [
-      "Merancang sketsa dan konsep dekorasi panggung utama untuk peringatan hari nasional dan event siswa.",
-      "Mengkoordinir pengadaan dan perakitan ornamen artistik ramah lingkungan.",
-      "Memastikan keindahan tata ruang photobooth dan sudut estetik di arena kegiatan."
-    ],
-    programs: [
-      "Dekorasi Tematik Acara Sekolah",
-      "Instalasi Photobooth Interaktif",
-      "Pojok Karya Seni & Galeri Mini"
-    ],
-    // Anggota PDD
-socials: {
-  instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-  tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+    bio: "Berdedikasi merancang dekorasi panggung artistik dan visual branding acara yang berkesan serta memanjakan mata.",
+    hobbies: ["Dekorasi Artistik", "Crafting", "Sketsa Visual", "Fotografi Alam"],
+    socials: {
+      instagram: { handle: "@kembang_cahsing", url: "https://instagram.com/kembang_cahsing" },
+      tiktok:    { handle: "@kembangcahsing", url: "https://tiktok.com/@kembangcahsing" }
+    }
   },
   "pdd-atika": {
     name: "Atika Putri Najmiya",
@@ -254,22 +151,12 @@ socials: {
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
     image: "assets/LogoTM.jpeg",
-    vision: "Menyampaikan informasi kegiatan OSIS melalui tipografi, ilustrasi, dan desain grafis yang mudah dipahami dan berkarakter.",
-    missions: [
-      "Mengembangkan aset ilustrasi dan grafis untuk media cetak maupun digital sekolah.",
-      "Membuat kartu ucapan hari besar, sertifikat kegiatan, dan booklet panduan acara.",
-      "Mendukung tim dekorasi dalam pemilihan palet warna dan estetika desain grafis."
-    ],
-    programs: [
-      "Desain Sertifikat & Booklet Acara",
-      "Ilustrasi Karakter Edukatif Taruna",
-      "Infografis Rangkuman Kegiatan Siswa"
-    ],
-    // Anggota PDD
+    bio: "Aktif menyusun konten grafis publikasi dan copywriting interaktif untuk menyebarkan pesan positif serta info OSIS secara luas.",
+    hobbies: ["Copywriting Kreatif", "Desain Poster", "Membaca Webtoon", "Podcast"],
     socials: {
-      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+      instagram: { handle: "@atika_najmiya", url: "https://instagram.com/atika_najmiya" },
+      tiktok:    { handle: "@atikanajmiya", url: "https://tiktok.com/@atikanajmiya" }
+    }
   },
   "pdd-said": {
     name: "Said Jibril Tjikoe",
@@ -277,22 +164,12 @@ socials: {
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
     image: "assets/LogoTM.jpeg",
-    vision: "Menjamin ketersediaan dokumentasi fotografi berkualitas tinggi dengan ketepatan bidikan pada setiap detik berharga.",
-    missions: [
-      "Mengabadikan ekspresi, perjuangan, dan kemenangan siswa dalam ajang kompetisi maupun kegiatan rutin.",
-      "Mengoperasikan perangkat kamera, lensa, dan tata cahaya foto indoor maupun outdoor.",
-      "Melakukan proses seleksi dan editing foto untuk katalog dokumentasi sekolah."
-    ],
-    programs: [
-      "Fotografi Dokumentasi Eksklusif",
-      "Kurasi Foto Momen Terbaik Mingguan",
-      "Koleksi Foto Portofolio Angkatan"
-    ],
-    // Anggota PDD
+    bio: "Fokus pada operasional multimedia, tata panggung teknis, dan live streaming kegiatan sekolah dengan performa andal.",
+    hobbies: ["Audio Engineering", "Videografi Kamera", "Hardware Setup", "E-Sports"],
     socials: {
-      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+      instagram: { handle: "@said_tjikoe", url: "https://instagram.com/said_tjikoe" },
+      tiktok:    { handle: "@saidtjikoe", url: "https://tiktok.com/@saidtjikoe" }
+    }
   },
   "pdd-malaeka": {
     name: "Malaeka Ayu Siti Almiah",
@@ -300,47 +177,25 @@ socials: {
     badge: "Anggota PDD",
     division: "Divisi Publikasi, Dekorasi & Dokumentasi",
     image: "assets/LogoTM.jpeg",
-    vision: "Menyusun arsip digital dan katalog kenangan sekolah yang rapi, tertata, dan mudah diakses oleh seluruh siswa dan alumni.",
-    missions: [
-      "Mengelola struktur folder arsip Google Drive dan metadata foto/video dokumentasi.",
-      "Membantu penyusunan buku kenangan digital (digital yearbook) dan majalah dinding visual.",
-      "Mempersiapkan rilis dokumentasi cepat pasca-acara selesai."
-    ],
-    programs: [
-      "Digital Yearbook & Buku Kenangan",
-      "Sistem Manajemen Arsip Foto Cloud",
-      "Rilis Kilat Dokumentasi Pasca-Event"
-    ],
-    // Anggota PDD
+    bio: "Mengemas feed media sosial dan arsip galeri sekolah dengan konsep visual yang rapi, modern, dan harmonis.",
+    hobbies: ["Fotografi Potret", "Kreator Konten", "Fashion & Styling", "Journaling"],
     socials: {
-      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+      instagram: { handle: "@malaeka_ayu", url: "https://instagram.com/malaeka_ayu" },
+      tiktok:    { handle: "@malaekaayu", url: "https://tiktok.com/@malaekaayu" }
+    }
   },
-
-  // ── DIVISI 2: PENDIDIKAN & LINGKUNGAN HIDUP (PELITA) ───────
   "pelita-nayla": {
     name: "Nayla Alifa Anzalika",
     role: "Koordinasi Pelita",
-    badge: "Koor Pelita",
+    badge: "Koordinator Pelita",
     division: "Divisi Pendidikan & Lingkungan Hidup",
     image: "assets/LogoTM.jpeg",
-    vision: "Membangun atmosfer sekolah yang haus ilmu, berdaya nalar kritis, dan peduli terhadap kelestarian lingkungan hidup.",
-    missions: [
-      "Memimpin perumusan agenda olimpiade akademik, gerakan literasi, dan aksi cinta lingkungan.",
-      "Menjalin sinergi dengan guru mata pelajaran dalam mendukung delegasi kompetisi sains siswa.",
-      "Mengevaluasi keberlanjutan program peduli lingkungan dan kebersihan sekolah."
-    ],
-    programs: [
-      "Taruna Academic Festival & Olympiad",
-      "Gerakan Taruna Green School & Zero Plastic",
-      "Forum Diskusi Ilmiah Siswa"
-    ],
-    // Koor Pelita
+    bio: "Inspirator program literasi siswa dan aksi peduli lingkungan hijau untuk menciptakan ekosistem sekolah yang asri dan cerdas.",
+    hobbies: ["Sains Lingkungan", "Urban Gardening", "Membaca Buku", "Volunteering"],
     socials: {
-      instagram: { handle: "@khairatunne_hisan", url: "https://instagram.com/khairatunne_hisan" },
-      tiktok:    { handle: "@khairatunne", url: "https://tiktok.com/@khairatunne" }
-},
+      instagram: { handle: "@nayla_anzalika", url: "https://instagram.com/nayla_anzalika" },
+      tiktok:    { handle: "@naylaanzalika", url: "https://tiktok.com/@naylaanzalika" }
+    }
   },
   "pelita-galih": {
     name: "Galih Andhika Praditya",
@@ -348,17 +203,12 @@ socials: {
     badge: "Anggota Pelita",
     division: "Divisi Pendidikan & Lingkungan Hidup",
     image: "assets/LogoTM.jpeg",
-    vision: "Menjadikan sains dan teknologi sebagai ruang eksplorasi yang menyenangkan dan memicu inovasi nyata siswa.",
-    missions: [
-      "Mengorganisasi kompetisi sains antarkelas dan pameran proyek eksperimen siswa.",
-      "Mendampingi kelompok belajar persiapan olimpiade akademik (OSN).",
-      "Menyajikan fakta sains dan edukasi teknologi mingguan di majalah dinding."
-    ],
-    programs: [
-      "Science Fair & Pameran Inovasi Siswa",
-      "Klub Belajar Persiapan Olimpiade",
-      "Kuis Cerdas Cermat Sains Antarkelas"
-    ]
+    bio: "Penggerak inisiatif bank sampah, konservasi energi sekolah, dan edukasi ramah lingkungan bagi generasi muda Taruna Mandiri.",
+    hobbies: ["Daur Ulang Kreatif", "Sepeda Santai", "Eksplorasi Alam", "Pencak Silat"],
+    socials: {
+      instagram: { handle: "@galih_andhika", url: "https://instagram.com/galih_andhika" },
+      tiktok:    { handle: "@galihandhika", url: "https://tiktok.com/@galihandhika" }
+    }
   },
   "pelita-nadhira": {
     name: "Nadhira Izza Afkarina",
@@ -366,17 +216,12 @@ socials: {
     badge: "Anggota Pelita",
     division: "Divisi Pendidikan & Lingkungan Hidup",
     image: "assets/LogoTM.jpeg",
-    vision: "Menghidupkan budaya membaca dan menulis sebagai fondasi kemajuan cara berpikir generasi muda.",
-    missions: [
-      "Mengelola sudut baca kelas dan perpustakaan mini OSIS yang nyaman dan variatif.",
-      "Menginisiasi lomba resensi buku, menulis cerpen, dan cipta puisi antarsiswa.",
-      "Mengadakan sesi bedah buku inspiratif bersama guru tamu dan penulis muda."
-    ],
-    programs: [
-      "Pojok Literasi & Taruna Book Club",
-      "Pekan Cipta Puisi & Cerpen Taruna",
-      "Sesi Bedah Buku Inspiratif Berkala"
-    ]
+    bio: "Mendorong atmosfer belajar yang kolaboratif lewat kelompok studi siswa, seminar edukasi, dan bedah buku berkala.",
+    hobbies: ["Debat Ilmiah", "Kepenulisan Esai", "Membaca Sains", "Renang"],
+    socials: {
+      instagram: { handle: "@nadhira_afkarina", url: "https://instagram.com/nadhira_afkarina" },
+      tiktok:    { handle: "@nadhiraafkarina", url: "https://tiktok.com/@nadhiraafkarina" }
+    }
   },
   "pelita-zahra": {
     name: "Zahra Kamilya Bilqis",
@@ -384,17 +229,12 @@ socials: {
     badge: "Anggota Pelita",
     division: "Divisi Pendidikan & Lingkungan Hidup",
     image: "assets/LogoTM.jpeg",
-    vision: "Mewujudkan lingkungan sekolah yang asri, hijau, bersih, dan menanamkan kesadaran ekologis sejak dini.",
-    missions: [
-      "Mengawal pelaksanaan program pemilahan sampah organik dan anorganik di setiap kelas.",
-      "Mengorganisasi kegiatan penanaman pohon dan perawatan taman sekolah bersama perwakilan kelas.",
-      "Mengedukasi siswa mengenai bahaya pemanasan global dan efisiensi energi."
-    ],
-    programs: [
-      "Bank Sampah Mandiri Sekolah",
-      "Aksi Tanam Pohon & Apotek Hidup",
-      "Kampanye Hemat Energi & Air Bersih"
-    ]
+    bio: "Peduli pada keberlanjutan alam dan pengasrian sudut sekolah melalui penghijauan serta edukasi gaya hidup minim sampah.",
+    hobbies: ["Menanam Sukulen", "Merajut (Crochet)", "Menulis Puisi", "Cooking"],
+    socials: {
+      instagram: { handle: "@zahra_kamilya", url: "https://instagram.com/zahra_kamilya" },
+      tiktok:    { handle: "@zahrakamilya", url: "https://tiktok.com/@zahrakamilya" }
+    }
   },
   "pelita-shafa": {
     name: "Paquetta Shafa Aphrodite",
@@ -402,37 +242,25 @@ socials: {
     badge: "Anggota Pelita",
     division: "Divisi Pendidikan & Lingkungan Hidup",
     image: "assets/LogoTM.jpeg",
-    vision: "Mempererat solidaritas belajar siswa melalui sistem pendampingan sebaya yang inklusif dan solutif.",
-    missions: [
-      "Mengkoordinir jadwal bimbingan belajar sebaya (peer tutoring) menjelang asesmen dan ujian sekolah.",
-      "Menyusun bank latihan soal dan rangkuman materi pelajaran yang dibagikan secara digital.",
-      "Membantu siswa yang mengalami kendala belajar dengan metode diskusi santai."
-    ],
-    programs: [
-      "Peer Tutoring: Belajar Bareng Taruna",
-      "Distribusi Bank Soal Digital Asesmen",
-      "Klinik Belajar Interaktif Sebaya"
-    ]
+    bio: "Semangat menyelenggarakan workshop edukasi interaktif dan program tutor sebaya untuk membantu prestasi akademis teman seangkatan.",
+    hobbies: ["Bahasa Asing", "Public Speaking", "Mendengarkan Podcast", "Yoga"],
+    socials: {
+      instagram: { handle: "@shafa_aphrodite", url: "https://instagram.com/shafa_aphrodite" },
+      tiktok:    { handle: "@shafaaphrodite", url: "https://tiktok.com/@shafaaphrodite" }
+    }
   },
-
-  // ── DIVISI 3: SENI & OLAHRAGA (SENIORA) ────────────────────
   "seniora-imam": {
     name: "Imam Sulistomo",
     role: "Koordinasi Seniora",
-    badge: "Koor Seniora",
+    badge: "Koordinator Seniora",
     division: "Divisi Seni & Olahraga",
     image: "assets/LogoTM.jpeg",
-    vision: "Menyalurkan energi positif, sportivitas, dan kreativitas siswa Taruna Mandiri melalui panggung seni dan arena olahraga yang bergengsi.",
-    missions: [
-      "Memimpin perancangan dan pelaksanaan kompetisi olahraga akbar tahunan sekolah.",
-      "Mengkoordinasi seluruh subseksi cabang olahraga dan pementasan seni budaya.",
-      "Menjaga netralitas, keamanan, dan sportivitas tinggi dalam setiap turnamen."
-    ],
-    programs: [
-      "Taruna Cup: Liga Olahraga Tahunan",
-      "Pentas Seni & Kreasi Budaya Siswa",
-      "Pembinaan Kontingen Olahraga Sekolah"
-    ]
+    bio: "Penyemangat talenta siswa di bidang olahraga dan pentas seni, menjunjung tinggi sportivitas dan kreativitas tanpa batas.",
+    hobbies: ["Basket", "Lari Marathon", "Gitar Elektrik", "Fotografi Olahraga"],
+    socials: {
+      instagram: { handle: "@imam_sulistomo", url: "https://instagram.com/imam_sulistomo" },
+      tiktok:    { handle: "@imamsulistomo", url: "https://tiktok.com/@imamsulistomo" }
+    }
   },
   "seniora-nethanya": {
     name: "Nethanya Azatalya Nareswari",
@@ -440,17 +268,12 @@ socials: {
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
     image: "assets/LogoTM.jpeg",
-    vision: "Memberikan ruang panggung bagi bakat musik, vokal, dan pertunjukan siswa agar berkembang penuh percaya diri.",
-    missions: [
-      "Mengelola pertunjukan live acoustic pada jam istirahat dan festival sekolah.",
-      "Mengkurasi dan melatih band serta paduan suara perwakilan sekolah.",
-      "Menyusun tata kelola perlengkapan musik dan sound system kegiatan."
-    ],
-    programs: [
-      "Panggung Akustik Istirahat Kreatif",
-      "Festival Band & Vokal Solo Siswa",
-      "Kompilasi Musik Taruna Berkarya"
-    ]
+    bio: "Mengekspresikan dinamika seni tari dan koreografi pertunjukan untuk memeriahkan setiap festival dan pentas panggung sekolah.",
+    hobbies: ["Modern Dance", "Koreografi Tari", "Menyanyi Vokal", "Pilates"],
+    socials: {
+      instagram: { handle: "@nethanya_azatalya", url: "https://instagram.com/nethanya_azatalya" },
+      tiktok:    { handle: "@nethanyaazatalya", url: "https://tiktok.com/@nethanyaazatalya" }
+    }
   },
   "seniora-alvin": {
     name: "Muhammad Alvin Januar",
@@ -458,17 +281,12 @@ socials: {
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
     image: "assets/LogoTM.jpeg",
-    vision: "Membangun semangat juang, daya tahan fisik, dan ketangkasan siswa melalui kejuaraan futsal dan sepak bola.",
-    missions: [
-      "Mengatur bagan pertandingan, perwasitan, dan regulasi kompetisi futsal sekolah.",
-      "Menyelenggarakan latihan bersama antarkelas untuk mempererat persaudaraan.",
-      "Memastikan kesiapan lapangan dan medis pertolongan pertama saat tanding."
-    ],
-    programs: [
-      "Turnamen Futsal Antarkelas Taruna",
-      "Laga Persahabatan Antarsekolah",
-      "Pelatihan Wasit & Fairplay Siswa"
-    ]
+    bio: "Penggagas turnamen olahraga antarkelas yang kompetitif, sportif, dan memupuk solidaritas antarsiswa secara hangat.",
+    hobbies: ["Futsal", "Sepak Bola", "Lari Sprint", "Game Sepakbola"],
+    socials: {
+      instagram: { handle: "@alvin_januar", url: "https://instagram.com/alvin_januar" },
+      tiktok:    { handle: "@alvinjanuar", url: "https://tiktok.com/@alvinjanuar" }
+    }
   },
   "seniora-raditya": {
     name: "I Gde Bintang Raditya",
@@ -476,17 +294,12 @@ socials: {
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
     image: "assets/LogoTM.jpeg",
-    vision: "Mengembangkan antusiasme olahraga bola basket dan voli sebagai arena pembuktian sportivitas dan kerjasama tim tangguh.",
-    missions: [
-      "Menyelenggarakan kompetisi basket 3on3 dan turnamen voli putra-putri.",
-      "Mengkoordinasikan tim logistik perlengkapan bola, ring, dan net lapangan.",
-      "Mendorong partisipasi aktif siswa dari seluruh jenjang kelas."
-    ],
-    programs: [
-      "Taruna 3on3 Basketball Challenge",
-      "Turnamen Voli Antarangkatan",
-      "Klinik Kebugaran Jasmani Siswa"
-    ]
+    bio: "Pemusik yang mengorkestrasi pertunjukan band sekolah serta aransemen musik untuk festival seni tahunan Taruna Mandiri.",
+    hobbies: ["Drumming", "Bermain Bass", "Sound Arranging", "Bulu Tangkis"],
+    socials: {
+      instagram: { handle: "@bintang_raditya", url: "https://instagram.com/bintang_raditya" },
+      tiktok:    { handle: "@bintangraditya", url: "https://tiktok.com/@bintangraditya" }
+    }
   },
   "seniora-novzhafran": {
     name: "Muhammad Novzhafran",
@@ -494,17 +307,12 @@ socials: {
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
     image: "assets/LogoTM.jpeg",
-    vision: "Mengembangkan apresiasi terhadap seni rupa, mural, fotografi artistik, dan kriya tangan siswa.",
-    missions: [
-      "Mengorganisir pameran galeri lukisan, sketsa, dan kerajinan tangan siswa.",
-      "Memfasilitasi workshop menggambar dan pembuatan mural dinding sekolah.",
-      "Menyediakan ruang ekspresi visual yang positif di sudut sekolah."
-    ],
-    programs: [
-      "Mural Art Project: Dinding Inspirasi",
-      "Pameran Seni Rupa & Desain Siswa",
-      "Lomba Desain Poster Kreatif"
-    ]
+    bio: "Aktif membangun antusiasme kebugaran siswa lewat liga basket, senam ceria, dan kegiatan jasmani yang seru dan menyehatkan.",
+    hobbies: ["Street Basketball", "Workout", "Sepeda BMX", "Musik Hip-Hop"],
+    socials: {
+      instagram: { handle: "@nov_zhafran", url: "https://instagram.com/nov_zhafran" },
+      tiktok:    { handle: "@novzhafran", url: "https://tiktok.com/@novzhafran" }
+    }
   },
   "seniora-asha": {
     name: "Asha Meidina Setyaningrum",
@@ -512,17 +320,12 @@ socials: {
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
     image: "assets/LogoTM.jpeg",
-    vision: "Melestarikan kekayaan seni tari tradisional dan modern sebagai identitas keanggunan budaya generasi bangsa.",
-    missions: [
-      "Mempersiapkan koreografi tari persembahan untuk penyambutan tamu kehormatan.",
-      "Menyelenggarakan workshop tari daerah dan modern dance untuk siswa.",
-      "Mengkoordinir kostum dan tata rias pertunjukan panggung seni."
-    ],
-    programs: [
-      "Tari Tradisional & Modern Showcase",
-      "Workshop Tari Kreasi Nusantara",
-      "Pentas Kolaborasi Tari dan Drama"
-    ]
+    bio: "Mewadahi kecintaan seni rupa dan pameran karya visual siswa agar bakat seni rupa sekolah mendapatkan panggung apresiasi.",
+    hobbies: ["Seni Lukis Kanvas", "Ilustrasi Manual", "Kerajinan Tangan", "Fotografi"],
+    socials: {
+      instagram: { handle: "@asha_meidina", url: "https://instagram.com/asha_meidina" },
+      tiktok:    { handle: "@ashameidina", url: "https://tiktok.com/@ashameidina" }
+    }
   },
   "seniora-talitha": {
     name: "Talitha Luthfia Azzarine",
@@ -530,37 +333,25 @@ socials: {
     badge: "Anggota Seniora",
     division: "Divisi Seni & Olahraga",
     image: "assets/LogoTM.jpeg",
-    vision: "Menggalakkan gaya hidup aktif, sehat, dan bugar melalui olahraga rekreasi yang ceria bagi seluruh warga sekolah.",
-    missions: [
-      "Memimpin pelaksanaan senam kesegaran jasmani rutin bersama dewan guru dan siswa.",
-      "Menyusun agenda turnamen bulutangkis dan tenis meja antarkelas.",
-      "Mengkampanyekan pentingnya asupan gizi seimbang dan hidrasi bagi atlet siswa."
-    ],
-    programs: [
-      "Jumat Sehat: Senam Bersama Taruna",
-      "Kejuaraan Bulutangkis Antarkelas",
-      "Kampanye Hidup Sehat & Bugar"
-    ]
+    bio: "Menyemarakkan teater dan drama musikal sekolah, mengasah ekspresi seni peran siswa dengan penuh rasa percaya diri.",
+    hobbies: ["Seni Peran / Teater", "Menyanyi", "Membaca Sastra", "Bulu Tangkis"],
+    socials: {
+      instagram: { handle: "@talitha_azzarine", url: "https://instagram.com/talitha_azzarine" },
+      tiktok:    { handle: "@talithaazzarine", url: "https://tiktok.com/@talithaazzarine" }
+    }
   },
-
-  // ── DIVISI 4: KEROHANIAN & BUDI PEKERTI (AGAMA) ───────────
   "agama-rafa": {
     name: "Fathi Fawwaz Ar Rafaa",
     role: "Koordinasi Agama",
-    badge: "Koor Agama",
+    badge: "Koordinator Agama",
     division: "Divisi Kerohanian & Budi Pekerti",
     image: "assets/LogoTM.jpeg",
-    vision: "Menanamkan nilai-nilai religius, akhlak mulia, dan toleransi antarumat beragama yang harmonis di lingkungan sekolah.",
-    missions: [
-      "Memimpin pelaksanaan peringatan hari-hari besar keagamaan secara khidmat dan inklusif.",
-      "Mengkoordinasikan kegiatan pembiasaan ibadah rutin harian siswa.",
-      "Menjadi teladan dalam pembinaan budi pekerti, kejujuran, dan sopan santun."
-    ],
-    programs: [
-      "Peringatan Hari Besar Keagamaan Nasional",
-      "Taruna Peduli: Bakti Sosial Ramadhan & Hari Raya",
-      "Forum Kajian Karakter & Etika Generasi Muda"
-    ]
+    bio: "Menuntun kegiatan kerohanian yang menyejukkan hati, mempererat toleransi, dan menanamkan akhlak mulia dalam keseharian siswa.",
+    hobbies: ["Tilawah & Tahfidz", "Kajian Keislaman", "Kaligrafi Arab", "Memanah"],
+    socials: {
+      instagram: { handle: "@rafa_fawwaz", url: "https://instagram.com/rafa_fawwaz" },
+      tiktok:    { handle: "@rafafawwaz", url: "https://tiktok.com/@rafafawwaz" }
+    }
   },
   "agama-abigail": {
     name: "Abigail Anandhya Raharjani",
@@ -568,17 +359,12 @@ socials: {
     badge: "Anggota Agama",
     division: "Divisi Kerohanian & Budi Pekerti",
     image: "assets/LogoTM.jpeg",
-    vision: "Mempererat persaudaraan, cinta kasih, dan kerukunan seluruh siswa dengan saling menghargai keyakinan.",
-    missions: [
-      "Mengorganisasi persekutuan doa dan ibadah bersama bagi siswa yang merayakan hari besar Kristiani.",
-      "Mendorong aksi peduli kemanusiaan dan kunjungan ke panti asuhan.",
-      "Membangun dialog antaragama yang menyejukkan di kalangan siswa."
-    ],
-    programs: [
-      "Perayaan Natal Bersama Sekolah",
-      "Aksi Kasih & Kunjungan Panti Asuhan",
-      "Dialog Kerukunan Pelajar Taruna"
-    ]
+    bio: "Menghidupkan suasana persekutuan doa dan ibadah yang khusyuk, memperkuat tali kasih persaudaraan antarumat beragama di sekolah.",
+    hobbies: ["Pelayanan Rohani", "Bermain Piano", "Paduan Suara", "Membaca Renungan"],
+    socials: {
+      instagram: { handle: "@abigail_anandhya", url: "https://instagram.com/abigail_anandhya" },
+      tiktok:    { handle: "@abigailanandhya", url: "https://tiktok.com/@abigailanandhya" }
+    }
   },
   "agama-azizah": {
     name: "Azizah Octavia",
@@ -586,17 +372,12 @@ socials: {
     badge: "Anggota Agama",
     division: "Divisi Kerohanian & Budi Pekerti",
     image: "assets/LogoTM.jpeg",
-    vision: "Menumbuhkan kecintaan membaca kitab suci dan memperdalam pemahaman ajaran agama dalam kehidupan sehari-hari.",
-    missions: [
-      "Mengelola kegiatan tadarus bersama dan kajian keputrian rutin setiap pekan.",
-      "Menyiapkan materi tausiyah singkat edukatif di majalah dinding rohani.",
-      "Membantu penataan dan kebersihan tempat ibadah sekolah."
-    ],
-    programs: [
-      "Tadarus Pagi & Kajian Keputrian Rutin",
-      "Pojok Mading Rohani Inspiratif",
-      "Gerakan Sholat Berjamaah Tepat Waktu"
-    ]
+    bio: "Menggerakkan bakti sosial, kepedulian yatim piatu, dan infak Jumat berkah guna memupuk empati kemanusiaan seluruh siswa.",
+    hobbies: ["Bakti Sosial", "Menulis Refleksi Diri", "Khataman Al-Quran", "Memasak"],
+    socials: {
+      instagram: { handle: "@azizah_octavia", url: "https://instagram.com/azizah_octavia" },
+      tiktok:    { handle: "@azizahoctavia", url: "https://tiktok.com/@azizahoctavia" }
+    }
   },
   "agama-abdoel": {
     name: "Abdoel Agiez FD",
@@ -604,17 +385,12 @@ socials: {
     badge: "Anggota Agama",
     division: "Divisi Kerohanian & Budi Pekerti",
     image: "assets/LogoTM.jpeg",
-    vision: "Membangun kepedulian sosial yang nyata melalui penggalangan infaq dan bantuan korban bencana alam.",
-    missions: [
-      "Mengkoordinasi pengelolaan kotak infaq Jumat berkah dan zakat fitrah sekolah.",
-      "Menyalurkan bantuan tanggap bencana secara cepat, transparan, dan tepat sasaran.",
-      "Menggerakkan partisipasi relawan siswa dalam kegiatan bakti sosial."
-    ],
-    programs: [
-      "Infaq Jumat Berkah & Tanggap Bencana",
-      "Penyaluran Zakat & Sedekah Taruna",
-      "Relawan Sahabat Dhuafa Sekolah"
-    ]
+    bio: "Menjaga keteraturan sarana ibadah sekolah dan mengoordinasikan peringatan hari besar keagamaan secara khidmat dan meriah.",
+    hobbies: ["Rebana & Hadrah", "Manajemen Masjid", "Futsal Santai", "Membaca Sirah"],
+    socials: {
+      instagram: { handle: "@abdoel_agiez", url: "https://instagram.com/abdoel_agiez" },
+      tiktok:    { handle: "@abdoelagiez", url: "https://tiktok.com/@abdoelagiez" }
+    }
   },
   "agama-garneto": {
     name: "Garneto Dama Kawiswara",
@@ -622,37 +398,25 @@ socials: {
     badge: "Anggota Agama",
     division: "Divisi Kerohanian & Budi Pekerti",
     image: "assets/LogoTM.jpeg",
-    vision: "Menegakkan budaya 5S (Senyum, Salam, Sapa, Sopan, Santun) demi terwujudnya sekolah yang damai dan beradab.",
-    missions: [
-      "Mengampanyekan sikap anti-perundungan (stop bullying) berlandaskan etika ketuhanan.",
-      "Menjaga ketertiban dan kekhusyukan saat doa bersama pembukaan dan penutupan pelajaran.",
-      "Membantu pelaksanaan pesantren kilat dan pembinaan rohani berkala."
-    ],
-    programs: [
-      "Kampanye Budaya 5S & Anti-Bullying",
-      "Pesantren Kilat & Retreat Pembinaan Budi Pekerti",
-      "Pembiasaan Doa Bersama Berkarakter"
-    ]
+    bio: "Mendukung dialog kerukunan antarsiswa dan penanaman budi pekerti luhur demi terciptanya harmoni damai di lingkungan sekolah.",
+    hobbies: ["Kajian Filosofi", "Diskusi Etika", "Bermain Catur", "Bulu Tangkis"],
+    socials: {
+      instagram: { handle: "@garneto_dama", url: "https://instagram.com/garneto_dama" },
+      tiktok:    { handle: "@garnetodama", url: "https://tiktok.com/@garnetodama" }
+    }
   },
-
-  // ── DIVISI 5: HUBUNGAN MASYARAKAT (HUMAS) ─────────────────
   "humas-ifra": {
     name: "Ifra Shafana",
     role: "Koordinasi Humas",
-    badge: "Koor Humas",
+    badge: "Koordinator Humas",
     division: "Divisi Hubungan Masyarakat",
     image: "assets/LogoTM.jpeg",
-    vision: "Membangun jembatan komunikasi yang transparan, terpercaya, dan proaktif antara OSIS, seluruh siswa, dewan guru, dan institusi eksternal.",
-    missions: [
-      "Memimpin strategi pengelolaan kotak aspirasi dan advokasi suara siswa ke pihak sekolah.",
-      "Menjalin relasi diplomasi dan kolaborasi antarsekolah di tingkat kota/provinsi.",
-      "Memastikan keterbukaan informasi seluruh program kerja OSIS secara tepat dan santun."
-    ],
-    programs: [
-      "Forum Aspirasi Terbuka: Suara Taruna",
-      "Studi Banding OSIS Antarsekolah",
-      "Konferensi Pers & Rilis Program Kerja"
-    ]
+    bio: "Jembatan komunikasi interaktif antara OSIS dengan siswa, guru, alumni, serta jejaring organisasi sekolah lain se-Jabodetabek.",
+    hobbies: ["Public Relations", "Master of Ceremony", "Networking", "Travelling"],
+    socials: {
+      instagram: { handle: "@ifra_shafana", url: "https://instagram.com/ifra_shafana" },
+      tiktok:    { handle: "@ifrashafana", url: "https://tiktok.com/@ifrashafana" }
+    }
   },
   "humas-jasmine": {
     name: "Jasmine Novalia Tobing",
@@ -660,17 +424,12 @@ socials: {
     badge: "Anggota Humas",
     division: "Divisi Hubungan Masyarakat",
     image: "assets/LogoTM.jpeg",
-    vision: "Mendengar setiap masukan dan keluh kesah siswa dengan empati serta memberikan tanggapan yang konstruktif.",
-    missions: [
-      "Mengelola kotak saran fisik dan form aspirasi daring secara rahasia dan bertanggung jawab.",
-      "Merekapitulasi isu-isu utama kebutuhan siswa untuk dibahas bersama perwakilan kelas (MPK).",
-      "Menjembatani mediasi antarsiswa guna menjaga suasana belajar yang kondusif."
-    ],
-    programs: [
-      "Kotak Saran Digital & Kotak Aspirasi Kelas",
-      "Rapat Dengar Pendapat Perwakilan Kelas",
-      "Survei Kepuasan Siswa Terhadap OSIS"
-    ]
+    bio: "Komunikator ramah yang mengelola penyampaian pengumuman resmi dan merangkul antusiasme siswa dalam setiap program sekolah.",
+    hobbies: ["Broadcasting", "Vlog Komunikasi", "Mendengarkan Musik", "Tenis Meja"],
+    socials: {
+      instagram: { handle: "@jasmine_tobing", url: "https://instagram.com/jasmine_tobing" },
+      tiktok:    { handle: "@jasminetobing", url: "https://tiktok.com/@jasminetobing" }
+    }
   },
   "humas-putra": {
     name: "Putra Claren Riwu",
@@ -678,17 +437,12 @@ socials: {
     badge: "Anggota Humas",
     division: "Divisi Hubungan Masyarakat",
     image: "assets/LogoTM.jpeg",
-    vision: "Membangun jaringan kemitraan eksternal dan sponsorship yang kokoh untuk mendukung kelancaran kegiatan siswa.",
-    missions: [
-      "Menyusun proposal sponsorship dan menjalin komunikasi dengan mitra pihak ketiga yang relevan.",
-      "Menyambut dan mendampingi tamu luar sekolah serta narasumber seminar.",
-      "Menjaga citra baik nama almamater Sekolah Taruna Mandiri di ruang publik."
-    ],
-    programs: [
-      "Kemitraan Sponsorship & Kerjasama Acara",
-      "Protokoler Penyambutan Tamu Sekolah",
-      "Database Relasi Eksternal & Lembaga Mitra"
-    ]
+    bio: "Menjalin kemitraan sponsor dan kolaborasi eksternal yang mendukung keberhasilan acara-acara besar OSIS Taruna Mandiri.",
+    hobbies: ["Negosiasi & Pitching", "Fotografi Event", "Basket", "Jelajah Kota"],
+    socials: {
+      instagram: { handle: "@putra_riwu", url: "https://instagram.com/putra_riwu" },
+      tiktok:    { handle: "@putrariwu", url: "https://tiktok.com/@putrariwu" }
+    }
   },
   "humas-sasi": {
     name: "Sasi Fitri Ayu Erlangga",
@@ -696,17 +450,12 @@ socials: {
     badge: "Anggota Humas",
     division: "Divisi Hubungan Masyarakat",
     image: "assets/LogoTM.jpeg",
-    vision: "Menyebarkan informasi dan kabar prestasi sekolah secara cepat, akurat, dan menginspirasi.",
-    missions: [
-      "Menerbitkan buletin berkala dan siaran warta humas mengenai agenda sekolah.",
-      "Berkoordinasi dengan perwakilan kelas untuk distribusi pengumuman resmi OSIS.",
-      "Mempublikasikan apresiasi bagi siswa-siswi yang meraih prestasi membanggakan."
-    ],
-    programs: [
-      "Buletin Warta Taruna Edisi Bulanan",
-      "Jalur Komunikasi Cepat Ketua Kelas",
-      "Apresiasi Bintang Prestasi Taruna"
-    ]
+    bio: "Mengelola kanal informasi mading dan pusat respon pertanyaan siswa agar aspirasi warga sekolah tertampung secara transparan.",
+    hobbies: ["Jurnalistik Sekolah", "Wawancara Siswa", "Menulis Berita", "Badminton"],
+    socials: {
+      instagram: { handle: "@sasi_erlangga", url: "https://instagram.com/sasi_erlangga" },
+      tiktok:    { handle: "@sasierlangga", url: "https://tiktok.com/@sasierlangga" }
+    }
   },
   "humas-kayla": {
     name: "Kayla Aisha Farhana Sabrie",
@@ -714,17 +463,12 @@ socials: {
     badge: "Anggota Humas",
     division: "Divisi Hubungan Masyarakat",
     image: "assets/LogoTM.jpeg",
-    vision: "Mempererat ikatan silaturahmi dengan para alumni guna membuka peluang mentoring dan bimbingan karir masa depan.",
-    missions: [
-      "Membangun database kontak alumni yang berprestasi di berbagai perguruan tinggi dan karir.",
-      "Mengundang alumni sukses untuk berbagi pengalaman dalam sesi talkshow inspiratif.",
-      "Memfasilitasi forum temu kangen dan kontribusi alumni bagi pengembangan sekolah."
-    ],
-    programs: [
-      "Taruna Alumni Mentorship Talkshow",
-      "Database Ikatan Alumni Taruna Mandiri",
-      "Bakti Alumni untuk Almamater"
-    ]
+    bio: "Menyampaikan suara siswa lewat konten tanya-jawab interaktif dan menyebarkan pesan positif ke seluruh penjuru sekolah.",
+    hobbies: ["Voice Over", "Content Creator", "Menari", "Membaca Buku Motivasi"],
+    socials: {
+      instagram: { handle: "@kayla_sabrie", url: "https://instagram.com/kayla_sabrie" },
+      tiktok:    { handle: "@kaylasabrie", url: "https://tiktok.com/@kaylasabrie" }
+    }
   },
   "humas-nadja": {
     name: "Nadja Zyarifa",
@@ -732,17 +476,12 @@ socials: {
     badge: "Anggota Humas",
     division: "Divisi Hubungan Masyarakat",
     image: "assets/LogoTM.jpeg",
-    vision: "Mengemas komunikasi publik OSIS yang ramah, sopan, dan representatif bagi dunia luar maupun media sosial.",
-    missions: [
-      "Bertindak sebagai Master of Ceremony (MC) dan pemandu acara dalam kegiatan resmi organisasi.",
-      "Menangani korespondensi surat undangan antarorganisasi dan instansi dinas.",
-      "Memastikan tata krama diplomasi sekolah tetap terjaga dengan integritas tinggi."
-    ],
-    programs: [
-      "Pelatihan Public Speaking & MC Siswa",
-      "Pengelolaan Surat Diplomasi Antarsekolah",
-      "Duta Komunikasi & Hospitality Sekolah"
-    ]
+    bio: "Menghubungkan kepengurusan OSIS dengan perwakilan kelas (MPK/ketua kelas) untuk memastikan arus koordinasi berjalan lancar.",
+    hobbies: ["Komunikasi Publik", "Desain Infografis", "Fotografi Human Interest", "Renang"],
+    socials: {
+      instagram: { handle: "@nadja_zyarifa", url: "https://instagram.com/nadja_zyarifa" },
+      tiktok:    { handle: "@nadjazyarifa", url: "https://tiktok.com/@nadjazyarifa" }
+    }
   }
 };
 
@@ -925,9 +664,8 @@ socials: {
   const divisionEl = qs('#modalDivision');
   const nameEl     = qs('#modalName');
   const roleEl     = qs('#modalRole');
-  const visionEl   = qs('#modalVision');
-  const missionsEl = qs('#modalMissions');
-  const prokersEl  = qs('#modalProkers');
+  const bioEl      = qs('#modalBio') || qs('#modalVision');
+  const hobbiesEl  = qs('#modalHobbies') || qs('#modalMissions');
 
   if (!modal || !dialog) return;
 
@@ -944,77 +682,72 @@ socials: {
     roleEl.textContent     = data.role;
     badgeEl.textContent    = data.badge;
     divisionEl.textContent = data.division;
-    visionEl.textContent   = data.vision;
+    if (bioEl) {
+      bioEl.textContent    = data.bio || data.vision || '';
+    }
 
-    // Render Avatar
+    // Render Avatar (3:4 portrait)
     avatarEl.innerHTML = `
       <img src="${data.image || 'assets/LogoTM.jpeg'}" alt="Foto ${data.name}" class="profile-modal__avatar-img" />
     `;
 
-    // Render Missions
-    missionsEl.innerHTML = data.missions.map((m, idx) => `
-      <li class="profile-modal__list-item">
-        <span class="profile-modal__num">${String(idx + 1).padStart(2, '0')}</span>
-        <span>${m}</span>
-      </li>
-    `).join('');
+    // Render Hobbies as modern capsule pills
+    if (hobbiesEl) {
+      const hobbiesList = data.hobbies || data.missions || [];
+      hobbiesEl.innerHTML = hobbiesList.map(h => `
+        <span class="hobby-pill">
+          <span class="hobby-pill__dot"></span>
+          <span>${h}</span>
+        </span>
+      `).join('');
+    }
 
-    // Render Work Programs
-    prokersEl.innerHTML = data.programs.map(p => `
-      <div class="proker-badge">
-        <span class="proker-badge__dot"></span>
-        <span class="proker-badge__title">${p}</span>
-      </div>
-    `).join('');
+    // Render Sosmed Personal (Instagram & TikTok)
+    const socialsGrid = qs('#modalSocialsGrid');
+    const socialsBlock = qs('#modalSocialsBlock');
+    if (socialsGrid) {
+      const s = data.socials || {};
+      let html = '';
 
-    // Render Sosmed Personal
-const socialsGrid = qs('#modalSocialsGrid');
-const socialsBlock = qs('#modalSocialsBlock');
-if (socialsGrid) {
-  const s = data.socials || {};
-  let html = '';
+      if (s.instagram) {
+        html += `
+          <a href="${s.instagram.url}" target="_blank" rel="noopener noreferrer" class="modal-social-card modal-social-card--ig">
+            <div class="modal-social-card__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <div class="modal-social-card__content">
+              <span class="modal-social-card__platform">Instagram</span>
+              <span class="modal-social-card__handle">${s.instagram.handle}</span>
+            </div>
+            <span class="modal-social-card__arrow" aria-hidden="true">↗</span>
+          </a>`;
+      }
 
-  if (s.instagram) {
-    html += `
-      <a href="${s.instagram.url}" target="_blank" rel="noopener noreferrer" class="modal-social-card modal-social-card--ig">
-        <div class="modal-social-card__icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-          </svg>
-        </div>
-        <div class="modal-social-card__content">
-          <span class="modal-social-card__platform">Instagram</span>
-          <span class="modal-social-card__handle">${s.instagram.handle}</span>
-        </div>
-        <span class="modal-social-card__arrow" aria-hidden="true">↗</span>
-      </a>`;
-  }
+      if (s.tiktok) {
+        html += `
+          <a href="${s.tiktok.url}" target="_blank" rel="noopener noreferrer" class="modal-social-card modal-social-card--tiktok">
+            <div class="modal-social-card__icon">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.35 0 .69.06 1 .17V9.08a6.37 6.37 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.34a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.75a8.16 8.16 0 0 0 4.91 1.63V6.94a4.85 4.85 0 0 1-1-.25z"/>
+              </svg>
+            </div>
+            <div class="modal-social-card__content">
+              <span class="modal-social-card__platform">TikTok</span>
+              <span class="modal-social-card__handle">${s.tiktok.handle}</span>
+            </div>
+            <span class="modal-social-card__arrow" aria-hidden="true">↗</span>
+          </a>`;
+      }
 
-  if (s.tiktok) {
-    html += `
-      <a href="${s.tiktok.url}" target="_blank" rel="noopener noreferrer" class="modal-social-card modal-social-card--tiktok">
-        <div class="modal-social-card__icon">
-          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.35 0 .69.06 1 .17V9.08a6.37 6.37 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.34a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.75a8.16 8.16 0 0 0 4.91 1.63V6.94a4.85 4.85 0 0 1-1-.25z"/>
-          </svg>
-        </div>
-        <div class="modal-social-card__content">
-          <span class="modal-social-card__platform">TikTok</span>
-          <span class="modal-social-card__handle">${s.tiktok.handle}</span>
-        </div>
-        <span class="modal-social-card__arrow" aria-hidden="true">↗</span>
-      </a>`;
-  }
-
-  socialsGrid.innerHTML = html;
-  // Sembunyikan block sosmed kalau tidak ada data sama sekali
-  if (socialsBlock) {
-    socialsBlock.style.display = (!s.instagram && !s.tiktok) ? 'none' : '';
-  }
-}
-
+      socialsGrid.innerHTML = html;
+      if (socialsBlock) {
+        socialsBlock.style.display = (!s.instagram && !s.tiktok) ? 'none' : '';
+      }
+    }
 
     // Open states
     modal.classList.add('is-open');
@@ -1051,6 +784,8 @@ if (socialsGrid) {
       };
 
       el.addEventListener('click', handler);
+
+      // Keyboard support: Enter / Space triggers modal
       el.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
@@ -1062,38 +797,52 @@ if (socialsGrid) {
 
   attachTriggers();
 
-  // Close handlers
-  if (closeBtn) closeBtn.addEventListener('click', closeModal);
-  if (backdrop) backdrop.addEventListener('click', closeModal);
+  // Close triggers
+  closeBtn.addEventListener('click', closeModal);
+  backdrop.addEventListener('click', closeModal);
 
+  // Esc key listener
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeModal();
+    if (e.key === 'Escape' && modal.classList.contains('is-open')) {
+      closeModal();
+    }
   });
 
-  // Touch swipe-down for Mobile Bottom Sheet
-  let touchStartY = 0;
-  let touchCurrentY = 0;
+  // Mobile touch drag-to-dismiss for bottom-sheet
+  let startY = 0;
+  let currentY = 0;
+  let isDragging = false;
 
   dialog.addEventListener('touchstart', (e) => {
-    touchStartY = e.touches[0].clientY;
+    if (window.innerWidth > 768) return;
+    // Only drag from top drag-bar or dialog top header
+    const touch = e.touches[0];
+    const rect = dialog.getBoundingClientRect();
+    if (touch.clientY - rect.top < 60) {
+      startY = touch.clientY;
+      isDragging = true;
+    }
   }, { passive: true });
 
   dialog.addEventListener('touchmove', (e) => {
-    touchCurrentY = e.touches[0].clientY;
-    const diff = touchCurrentY - touchStartY;
-    if (diff > 0 && dialog.scrollTop <= 0) {
-      dialog.style.transform = `translateY(${diff * 0.7}px)`;
+    if (!isDragging) return;
+    currentY = e.touches[0].clientY;
+    const diff = currentY - startY;
+    if (diff > 0) {
+      dialog.style.transform = `translateY(${diff}px)`;
     }
   }, { passive: true });
 
   dialog.addEventListener('touchend', () => {
-    const diff = touchCurrentY - touchStartY;
-    if (diff > 85 && dialog.scrollTop <= 0) {
+    if (!isDragging) return;
+    isDragging = false;
+    const diff = currentY - startY;
+    if (diff > 120) {
+      dialog.style.transform = '';
       closeModal();
+    } else {
+      dialog.style.transform = '';
     }
-    dialog.style.transform = '';
-    touchStartY = 0;
-    touchCurrentY = 0;
   });
 })();
 
